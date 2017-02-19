@@ -1,0 +1,2574 @@
+*** EVALUATION ***
+PROGRAM "Lab.abs"
+
+*********************************************************************************************
+TARGET SECTION
+---------------------------------------------------------------------------------------------
+Processor   : Freescale HC08
+Memory Model: SMALL
+File Format : ELF\DWARF 2.0
+Linker      : SmartLinker V-5.0.51 Build 14019, Jan 20 2014
+
+*********************************************************************************************
+FILE SECTION
+---------------------------------------------------------------------------------------------
+Date_asm.obj                            Model: SMALL,         Lang: Assembler
+MCUinit_asm.obj                         Model: SMALL,         Lang: Assembler
+Time_asm.obj                            Model: SMALL,         Lang: Assembler
+Time2GetReal_asm.obj                    Model: SMALL,         Lang: Assembler
+btnA_asm.obj                            Model: SMALL,         Lang: Assembler
+btnB_asm.obj                            Model: SMALL,         Lang: Assembler
+btnC_asm.obj                            Model: SMALL,         Lang: Assembler
+btnD_asm.obj                            Model: SMALL,         Lang: Assembler
+btnEight_asm.obj                        Model: SMALL,         Lang: Assembler
+btnFive_asm.obj                         Model: SMALL,         Lang: Assembler
+btnFour_asm.obj                         Model: SMALL,         Lang: Assembler
+btnHandled_asm.obj                      Model: SMALL,         Lang: Assembler
+btnHash_asm.obj                         Model: SMALL,         Lang: Assembler
+btnNine_asm.obj                         Model: SMALL,         Lang: Assembler
+btnOne_asm.obj                          Model: SMALL,         Lang: Assembler
+btnSeven_asm.obj                        Model: SMALL,         Lang: Assembler
+btnSix_asm.obj                          Model: SMALL,         Lang: Assembler
+btnStar_asm.obj                         Model: SMALL,         Lang: Assembler
+btnThree_asm.obj                        Model: SMALL,         Lang: Assembler
+btnTwo_asm.obj                          Model: SMALL,         Lang: Assembler
+btnZero_asm.obj                         Model: SMALL,         Lang: Assembler
+clearLCD_asm.obj                        Model: SMALL,         Lang: Assembler
+clockAddress_asm.obj                    Model: SMALL,         Lang: Assembler
+clockG2T_asm.obj                        Model: SMALL,         Lang: Assembler
+columnOne_asm.obj                       Model: SMALL,         Lang: Assembler
+columnThree_asm.obj                     Model: SMALL,         Lang: Assembler
+columnTwo_asm.obj                       Model: SMALL,         Lang: Assembler
+columnZero_asm.obj                      Model: SMALL,         Lang: Assembler
+fourBitEightBang_asm.obj                Model: SMALL,         Lang: Assembler
+fourBitFiveBang_asm.obj                 Model: SMALL,         Lang: Assembler
+fourBitFourBang_asm.obj                 Model: SMALL,         Lang: Assembler
+fourBitNineBang_asm.obj                 Model: SMALL,         Lang: Assembler
+fourBitSevenBang_asm.obj                Model: SMALL,         Lang: Assembler
+fourBitSixBang_asm.obj                  Model: SMALL,         Lang: Assembler
+fourBitSoloBang_asm.obj                 Model: SMALL,         Lang: Assembler
+fourBitThreeBang_asm.obj                Model: SMALL,         Lang: Assembler
+fourBitTwoBang_asm.obj                  Model: SMALL,         Lang: Assembler
+getClock_asm.obj                        Model: SMALL,         Lang: Assembler
+getDay_asm.obj                          Model: SMALL,         Lang: Assembler
+getHour_asm.obj                         Model: SMALL,         Lang: Assembler
+getMin_asm.obj                          Model: SMALL,         Lang: Assembler
+getMonth_asm.obj                        Model: SMALL,         Lang: Assembler
+getSec_asm.obj                          Model: SMALL,         Lang: Assembler
+getYear_asm.obj                         Model: SMALL,         Lang: Assembler
+i2cClock_asm.obj                        Model: SMALL,         Lang: Assembler
+i2cStart_asm.obj                        Model: SMALL,         Lang: Assembler
+i2cStop_asm.obj                         Model: SMALL,         Lang: Assembler
+initializeLCD_asm.obj                   Model: SMALL,         Lang: Assembler
+main_asm.obj                            Model: SMALL,         Lang: Assembler
+moveCursor_asm.obj                      Model: SMALL,         Lang: Assembler
+readAcknowledge_asm.obj                 Model: SMALL,         Lang: Assembler
+secAddress_asm.obj                      Model: SMALL,         Lang: Assembler
+selectLEDS_asm.obj                      Model: SMALL,         Lang: Assembler
+selectY2_asm.obj                        Model: SMALL,         Lang: Assembler
+selectY3_asm.obj                        Model: SMALL,         Lang: Assembler
+selectY4_asm.obj                        Model: SMALL,         Lang: Assembler
+setClock_asm.obj                        Model: SMALL,         Lang: Assembler
+setDay_asm.obj                          Model: SMALL,         Lang: Assembler
+setHour_asm.obj                         Model: SMALL,         Lang: Assembler
+setMin_asm.obj                          Model: SMALL,         Lang: Assembler
+setMonth_asm.obj                        Model: SMALL,         Lang: Assembler
+setSec_asm.obj                          Model: SMALL,         Lang: Assembler
+setYear_asm.obj                         Model: SMALL,         Lang: Assembler
+subRtnCol_asm.obj                       Model: SMALL,         Lang: Assembler
+subRtnHb_asm.obj                        Model: SMALL,         Lang: Assembler
+subRtnRows_asm.obj                      Model: SMALL,         Lang: Assembler
+wait100us_asm.obj                       Model: SMALL,         Lang: Assembler
+wait15ms_asm.obj                        Model: SMALL,         Lang: Assembler
+wait1600us_asm.obj                      Model: SMALL,         Lang: Assembler
+wait40us_asm.obj                        Model: SMALL,         Lang: Assembler
+wait4100us_asm.obj                      Model: SMALL,         Lang: Assembler
+writeA_lowercase_asm.obj                Model: SMALL,         Lang: Assembler
+writeAcknowledge_asm.obj                Model: SMALL,         Lang: Assembler
+writeColon_asm.obj                      Model: SMALL,         Lang: Assembler
+writeD_asm.obj                          Model: SMALL,         Lang: Assembler
+writeDay_asm.obj                        Model: SMALL,         Lang: Assembler
+writeE_lowercase_asm.obj                Model: SMALL,         Lang: Assembler
+writeEight_asm.obj                      Model: SMALL,         Lang: Assembler
+writeFive_asm.obj                       Model: SMALL,         Lang: Assembler
+writeForwardSlash_asm.obj               Model: SMALL,         Lang: Assembler
+writeFour_asm.obj                       Model: SMALL,         Lang: Assembler
+writeH_lowercase_asm.obj                Model: SMALL,         Lang: Assembler
+writeHour_asm.obj                       Model: SMALL,         Lang: Assembler
+writeI_lowercase_asm.obj                Model: SMALL,         Lang: Assembler
+writeLCD_asm.obj                        Model: SMALL,         Lang: Assembler
+writeM_lowercase_asm.obj                Model: SMALL,         Lang: Assembler
+writeMin_asm.obj                        Model: SMALL,         Lang: Assembler
+writeMonth_asm.obj                      Model: SMALL,         Lang: Assembler
+writeNine_asm.obj                       Model: SMALL,         Lang: Assembler
+writeOne_asm.obj                        Model: SMALL,         Lang: Assembler
+writeQuestion_asm.obj                   Model: SMALL,         Lang: Assembler
+writeQuote_asm.obj                      Model: SMALL,         Lang: Assembler
+writeS_lowercase_asm.obj                Model: SMALL,         Lang: Assembler
+writeSec_asm.obj                        Model: SMALL,         Lang: Assembler
+writeSeven_asm.obj                      Model: SMALL,         Lang: Assembler
+writeSix_asm.obj                        Model: SMALL,         Lang: Assembler
+writeSpace_asm.obj                      Model: SMALL,         Lang: Assembler
+writeT_asm.obj                          Model: SMALL,         Lang: Assembler
+writeT_lowercase_asm.obj                Model: SMALL,         Lang: Assembler
+writeThree_asm.obj                      Model: SMALL,         Lang: Assembler
+writeTwo_asm.obj                        Model: SMALL,         Lang: Assembler
+writeW_asm.obj                          Model: SMALL,         Lang: Assembler
+writeYear_asm.obj                       Model: SMALL,         Lang: Assembler
+writeZero_asm.obj                       Model: SMALL,         Lang: Assembler
+
+*********************************************************************************************
+STARTUP SECTION
+---------------------------------------------------------------------------------------------
+Entry point: 0xE000 (_Startup)
+
+*********************************************************************************************
+SECTION-ALLOCATION SECTION
+Section Name                    Size  Type     From       To       Segment
+---------------------------------------------------------------------------------------------
+.init                            238     R     0xE000     0xE0ED   ROM
+MY_ZEROPAGE                       19   R/W       0x60       0x72   Z_RAM
+MCUinit_asm__ORG00001              1     R     0xFFBD     0xFFBD   .absSeg0
+MCUinit_asm__ORG00002              1     R     0xFFBF     0xFFBF   .absSeg1
+MCUinit_asm__ORG00003             46     R     0xFFD0     0xFFFD   .absSeg2
+MyCode                          7360     R     0xE0EE     0xFDAD   ROM
+CODE_SECT                        118     R     0xFDAE     0xFE23   ROM
+.stack                            64   R/W      0x100      0x13F   RAM
+.vectSeg3_vect                     2     R     0xFFFE     0xFFFF   .vectSeg3
+
+Summary of section sizes per section type:
+READ_ONLY (R):        1E56 (dec:     7766)
+READ_WRITE (R/W):       53 (dec:       83)
+
+*********************************************************************************************
+VECTOR-ALLOCATION SECTION
+    Address     InitValue   InitFunction
+---------------------------------------------------------------------------------------------
+     0xFFFE        0xE000   _Startup
+
+*********************************************************************************************
+OBJECT-ALLOCATION SECTION
+     Name               Module                 Addr   hSize   dSize     Ref    Section   RLIB
+---------------------------------------------------------------------------------------------
+MODULE:                 -- Date_asm.obj --
+- PROCEDURES:
+     date                                      E0EE      28      40       1   MyCode      
+- VARIABLES:
+MODULE:                 -- MCUinit_asm.obj --
+- PROCEDURES:
+     MCU_init                                  FDAE      26      38       1   CODE_SECT   
+     SkipTrim                                  FDD4      1E      30       0   CODE_SECT   
+     isrVtpmovf                                FDF2      2F      47       1   CODE_SECT   
+     done                                      FE21       3       3       0   CODE_SECT   
+- VARIABLES:
+     VAR00001                                  FFBD       1       1       0   .text       
+     VAR00002                                  FFBF       1       1       0   .text       
+     VAR00003                                  FFD0       2       2       0   .text       
+     VAR00004                                  FFD2       2       2       0   .text       
+     VAR00005                                  FFD4       2       2       0   .text       
+     VAR00006                                  FFD6       2       2       0   .text       
+     VAR00007                                  FFD8       2       2       0   .text       
+     VAR00008                                  FFDA       2       2       0   .text       
+     VAR00009                                  FFDC       2       2       0   .text       
+     VAR00010                                  FFDE       2       2       0   .text       
+     VAR00011                                  FFE0       2       2       0   .text       
+     VAR00012                                  FFE2       2       2       0   .text       
+     VAR00013                                  FFE4       2       2       0   .text       
+     VAR00014                                  FFE6       2       2       0   .text       
+     VAR00015                                  FFE8       2       2       0   .text       
+     VAR00016                                  FFEA       2       2       0   .text       
+     VAR00017                                  FFEC       2       2       0   .text       
+     VAR00018                                  FFEE       2       2       0   .text       
+     VAR00019                                  FFF0       2       2       0   .text       
+     VAR00020                                  FFF2       2       2       0   .text       
+     VAR00021                                  FFF4       2       2       0   .text       
+     VAR00022                                  FFF6       2       2       0   .text       
+     VAR00023                                  FFF8       2       2       0   .text       
+     VAR00024                                  FFFA       2       2       0   .text       
+     VAR00025                                  FFFC       2       2       0   .text       
+MODULE:                 -- Time_asm.obj --
+- PROCEDURES:
+     time                                      E116      22      34       1   MyCode      
+- VARIABLES:
+MODULE:                 -- Time2GetReal_asm.obj --
+- PROCEDURES:
+     time2GetReal                              E138      37      55       2   MyCode      
+- VARIABLES:
+MODULE:                 -- btnA_asm.obj --
+- PROCEDURES:
+     btnA                                      E16F       7       7       1   MyCode      
+     pressed                                   E176       F      15       0   MyCode      
+- VARIABLES:
+MODULE:                 -- btnB_asm.obj --
+- PROCEDURES:
+     btnB                                      E185       7       7       1   MyCode      
+     pressed                                   E18C       F      15       0   MyCode      
+- VARIABLES:
+MODULE:                 -- btnC_asm.obj --
+- PROCEDURES:
+     btnC                                      E19B       7       7       1   MyCode      
+     pressed                                   E1A2       F      15       0   MyCode      
+- VARIABLES:
+MODULE:                 -- btnD_asm.obj --
+- PROCEDURES:
+     btnD                                      E1B1       7       7       1   MyCode      
+     pressed                                   E1B8       F      15       0   MyCode      
+- VARIABLES:
+MODULE:                 -- btnEight_asm.obj --
+- PROCEDURES:
+     btn8                                      E1C7       7       7       1   MyCode      
+     pressed                                   E1CE      3B      59       0   MyCode      
+     done                                      E209       4       4       0   MyCode      
+     monthTens                                 E20D       7       7       0   MyCode      
+     monthOnes                                 E214       A      10       0   MyCode      
+     dayTens                                   E21E       7       7       0   MyCode      
+     dayOnes                                   E225       A      10       0   MyCode      
+     yearTens                                  E22F       7       7       0   MyCode      
+     yearOnes                                  E236       7       7       0   MyCode      
+     hourTens                                  E23D       7       7       0   MyCode      
+     hourOnes                                  E244       A      10       0   MyCode      
+     minTens                                   E24E       7       7       0   MyCode      
+     minOnes                                   E255       A      10       0   MyCode      
+     secTens                                   E25F       7       7       0   MyCode      
+     secOnes                                   E266       A      10       0   MyCode      
+- VARIABLES:
+MODULE:                 -- btnFive_asm.obj --
+- PROCEDURES:
+     btn5                                      E270       7       7       1   MyCode      
+     pressed                                   E277      3B      59       0   MyCode      
+     done                                      E2B2       4       4       0   MyCode      
+     monthTens                                 E2B6       7       7       0   MyCode      
+     monthOnes                                 E2BD       A      10       0   MyCode      
+     dayTens                                   E2C7       7       7       0   MyCode      
+     dayOnes                                   E2CE       A      10       0   MyCode      
+     yearTens                                  E2D8       7       7       0   MyCode      
+     yearOnes                                  E2DF       7       7       0   MyCode      
+     hourTens                                  E2E6       7       7       0   MyCode      
+     hourOnes                                  E2ED       A      10       0   MyCode      
+     minTens                                   E2F7       7       7       0   MyCode      
+     minOnes                                   E2FE       A      10       0   MyCode      
+     secTens                                   E308       7       7       0   MyCode      
+     secOnes                                   E30F       A      10       0   MyCode      
+- VARIABLES:
+MODULE:                 -- btnFour_asm.obj --
+- PROCEDURES:
+     btn4                                      E319       7       7       1   MyCode      
+     pressed                                   E320      3B      59       0   MyCode      
+     done                                      E35B       4       4       0   MyCode      
+     monthTens                                 E35F       7       7       0   MyCode      
+     monthOnes                                 E366       A      10       0   MyCode      
+     dayTens                                   E370       7       7       0   MyCode      
+     dayOnes                                   E377       A      10       0   MyCode      
+     yearTens                                  E381       7       7       0   MyCode      
+     yearOnes                                  E388       7       7       0   MyCode      
+     hourTens                                  E38F       7       7       0   MyCode      
+     hourOnes                                  E396       A      10       0   MyCode      
+     minTens                                   E3A0       7       7       0   MyCode      
+     minOnes                                   E3A7       A      10       0   MyCode      
+     secTens                                   E3B1       7       7       0   MyCode      
+     secOnes                                   E3B8       A      10       0   MyCode      
+- VARIABLES:
+MODULE:                 -- btnHandled_asm.obj --
+- PROCEDURES:
+     btnHandled                                E3C2      17      23      15   MyCode      
+- VARIABLES:
+MODULE:                 -- btnHash_asm.obj --
+- PROCEDURES:
+     btnHash                                   E3D9       7       7       1   MyCode      
+     pressed                                   E3E0       F      15       0   MyCode      
+- VARIABLES:
+MODULE:                 -- btnNine_asm.obj --
+- PROCEDURES:
+     btn9                                      E3EF       7       7       1   MyCode      
+     pressed                                   E3F6      3B      59       0   MyCode      
+     done                                      E431       4       4       0   MyCode      
+     monthTens                                 E435       7       7       0   MyCode      
+     monthOnes                                 E43C       A      10       0   MyCode      
+     dayTens                                   E446       7       7       0   MyCode      
+     dayOnes                                   E44D       A      10       0   MyCode      
+     yearTens                                  E457       7       7       0   MyCode      
+     yearOnes                                  E45E       7       7       0   MyCode      
+     hourTens                                  E465       7       7       0   MyCode      
+     hourOnes                                  E46C       A      10       0   MyCode      
+     minTens                                   E476       7       7       0   MyCode      
+     minOnes                                   E47D       A      10       0   MyCode      
+     secTens                                   E487       7       7       0   MyCode      
+     secOnes                                   E48E       A      10       0   MyCode      
+- VARIABLES:
+MODULE:                 -- btnOne_asm.obj --
+- PROCEDURES:
+     btn1                                      E498       7       7       1   MyCode      
+     pressed                                   E49F      3B      59       0   MyCode      
+     done                                      E4DA       4       4       0   MyCode      
+     monthTens                                 E4DE       7       7       0   MyCode      
+     monthOnes                                 E4E5       A      10       0   MyCode      
+     dayTens                                   E4EF       7       7       0   MyCode      
+     dayOnes                                   E4F6       A      10       0   MyCode      
+     yearTens                                  E500       7       7       0   MyCode      
+     yearOnes                                  E507       7       7       0   MyCode      
+     hourTens                                  E50E       7       7       0   MyCode      
+     hourOnes                                  E515       A      10       0   MyCode      
+     minTens                                   E51F       7       7       0   MyCode      
+     minOnes                                   E526       A      10       0   MyCode      
+     secTens                                   E530       7       7       0   MyCode      
+     secOnes                                   E537       A      10       0   MyCode      
+- VARIABLES:
+MODULE:                 -- btnSeven_asm.obj --
+- PROCEDURES:
+     btn7                                      E541       7       7       1   MyCode      
+     pressed                                   E548      3B      59       0   MyCode      
+     done                                      E583       4       4       0   MyCode      
+     monthTens                                 E587       7       7       0   MyCode      
+     monthOnes                                 E58E       A      10       0   MyCode      
+     dayTens                                   E598       7       7       0   MyCode      
+     dayOnes                                   E59F       A      10       0   MyCode      
+     yearTens                                  E5A9       7       7       0   MyCode      
+     yearOnes                                  E5B0       7       7       0   MyCode      
+     hourTens                                  E5B7       7       7       0   MyCode      
+     hourOnes                                  E5BE       A      10       0   MyCode      
+     minTens                                   E5C8       7       7       0   MyCode      
+     minOnes                                   E5CF       A      10       0   MyCode      
+     secTens                                   E5D9       7       7       0   MyCode      
+     secOnes                                   E5E0       A      10       0   MyCode      
+- VARIABLES:
+MODULE:                 -- btnSix_asm.obj --
+- PROCEDURES:
+     btn6                                      E5EA       7       7       1   MyCode      
+     pressed                                   E5F1      3B      59       0   MyCode      
+     done                                      E62C       4       4       0   MyCode      
+     monthTens                                 E630       7       7       0   MyCode      
+     monthOnes                                 E637       A      10       0   MyCode      
+     dayTens                                   E641       7       7       0   MyCode      
+     dayOnes                                   E648       A      10       0   MyCode      
+     yearTens                                  E652       7       7       0   MyCode      
+     yearOnes                                  E659       7       7       0   MyCode      
+     hourTens                                  E660       7       7       0   MyCode      
+     hourOnes                                  E667       A      10       0   MyCode      
+     minTens                                   E671       7       7       0   MyCode      
+     minOnes                                   E678       A      10       0   MyCode      
+     secTens                                   E682       7       7       0   MyCode      
+     secOnes                                   E689       A      10       0   MyCode      
+- VARIABLES:
+MODULE:                 -- btnStar_asm.obj --
+- PROCEDURES:
+     btnStar                                   E693       7       7       1   MyCode      
+     pressed                                   E69A      46      70       0   MyCode      
+- VARIABLES:
+MODULE:                 -- btnThree_asm.obj --
+- PROCEDURES:
+     btn3                                      E6E0       7       7       1   MyCode      
+     pressed                                   E6E7      3B      59       0   MyCode      
+     done                                      E722       4       4       0   MyCode      
+     monthTens                                 E726       7       7       0   MyCode      
+     monthOnes                                 E72D       A      10       0   MyCode      
+     dayTens                                   E737       7       7       0   MyCode      
+     dayOnes                                   E73E       A      10       0   MyCode      
+     yearTens                                  E748       7       7       0   MyCode      
+     yearOnes                                  E74F       7       7       0   MyCode      
+     hourTens                                  E756       7       7       0   MyCode      
+     hourOnes                                  E75D       A      10       0   MyCode      
+     minTens                                   E767       7       7       0   MyCode      
+     minOnes                                   E76E       A      10       0   MyCode      
+     secTens                                   E778       7       7       0   MyCode      
+     secOnes                                   E77F       A      10       0   MyCode      
+- VARIABLES:
+MODULE:                 -- btnTwo_asm.obj --
+- PROCEDURES:
+     btn2                                      E789       7       7       1   MyCode      
+     pressed                                   E790      3B      59       0   MyCode      
+     done                                      E7CB       4       4       0   MyCode      
+     monthTens                                 E7CF       7       7       0   MyCode      
+     monthOnes                                 E7D6       A      10       0   MyCode      
+     dayTens                                   E7E0       7       7       0   MyCode      
+     dayOnes                                   E7E7       A      10       0   MyCode      
+     yearTens                                  E7F1       7       7       0   MyCode      
+     yearOnes                                  E7F8       7       7       0   MyCode      
+     hourTens                                  E7FF       7       7       0   MyCode      
+     hourOnes                                  E806       A      10       0   MyCode      
+     minTens                                   E810       7       7       0   MyCode      
+     minOnes                                   E817       A      10       0   MyCode      
+     secTens                                   E821       7       7       0   MyCode      
+     secOnes                                   E828       A      10       0   MyCode      
+- VARIABLES:
+MODULE:                 -- btnZero_asm.obj --
+- PROCEDURES:
+     btn0                                      E832       7       7       1   MyCode      
+     pressed                                   E839      3B      59       0   MyCode      
+     done                                      E874       4       4       0   MyCode      
+     monthTens                                 E878       7       7       0   MyCode      
+     monthOnes                                 E87F       A      10       0   MyCode      
+     dayTens                                   E889       7       7       0   MyCode      
+     dayOnes                                   E890       A      10       0   MyCode      
+     yearTens                                  E89A       7       7       0   MyCode      
+     yearOnes                                  E8A1       7       7       0   MyCode      
+     hourTens                                  E8A8       7       7       0   MyCode      
+     hourOnes                                  E8AF       A      10       0   MyCode      
+     minTens                                   E8B9       7       7       0   MyCode      
+     minOnes                                   E8C0       A      10       0   MyCode      
+     secTens                                   E8CA       7       7       0   MyCode      
+     secOnes                                   E8D1       A      10       0   MyCode      
+- VARIABLES:
+MODULE:                 -- clearLCD_asm.obj --
+- PROCEDURES:
+     clearLCD                                  E8DB      25      37       4   MyCode      
+- VARIABLES:
+MODULE:                 -- clockAddress_asm.obj --
+- PROCEDURES:
+     clockAddress                              E900      1E      30       3   MyCode      
+- VARIABLES:
+MODULE:                 -- clockG2T_asm.obj --
+- PROCEDURES:
+     clkG2T                                    E91E       7       7       4   MyCode      
+- VARIABLES:
+MODULE:                 -- columnOne_asm.obj --
+- PROCEDURES:
+     scanCol1                                  E925       E      14       1   MyCode      
+     row0                                      E933       4       4       0   MyCode      
+     pressDetected0                            E937       6       6       0   MyCode      
+     row1                                      E93D       4       4       0   MyCode      
+     pressDetected1                            E941       6       6       0   MyCode      
+     row2                                      E947       4       4       0   MyCode      
+     pressDetected2                            E94B       6       6       0   MyCode      
+     row3                                      E951       4       4       0   MyCode      
+     pressDetected3                            E955       6       6       0   MyCode      
+- VARIABLES:
+MODULE:                 -- columnThree_asm.obj --
+- PROCEDURES:
+     scanCol3                                  E95B       E      14       1   MyCode      
+     row0                                      E969       4       4       0   MyCode      
+     pressDetected0                            E96D       6       6       0   MyCode      
+     row1                                      E973       4       4       0   MyCode      
+     pressDetected1                            E977       6       6       0   MyCode      
+     row2                                      E97D       4       4       0   MyCode      
+     pressDetected2                            E981       6       6       0   MyCode      
+     row3                                      E987       4       4       0   MyCode      
+     pressDetected3                            E98B       6       6       0   MyCode      
+- VARIABLES:
+MODULE:                 -- columnTwo_asm.obj --
+- PROCEDURES:
+     scanCol2                                  E991       E      14       1   MyCode      
+     row0                                      E99F       4       4       0   MyCode      
+     pressDetected0                            E9A3       6       6       0   MyCode      
+     row1                                      E9A9       4       4       0   MyCode      
+     pressDetected1                            E9AD       6       6       0   MyCode      
+     row2                                      E9B3       4       4       0   MyCode      
+     pressDetected2                            E9B7       6       6       0   MyCode      
+     row3                                      E9BD       4       4       0   MyCode      
+     pressDetected3                            E9C1       6       6       0   MyCode      
+- VARIABLES:
+MODULE:                 -- columnZero_asm.obj --
+- PROCEDURES:
+     scanCol0                                  E9C8       E      14       1   MyCode      
+     row0                                      E9D6       4       4       0   MyCode      
+     pressDetected0                            E9DA       6       6       0   MyCode      
+     row1                                      E9E0       4       4       0   MyCode      
+     pressDetected1                            E9E4       6       6       0   MyCode      
+     row2                                      E9EA       4       4       0   MyCode      
+     pressDetected2                            E9EE       6       6       0   MyCode      
+     row3                                      E9F4       4       4       0   MyCode      
+     pressDetected3                            E9F8       6       6       0   MyCode      
+- VARIABLES:
+     portB                                     E9C7       1       1       0   MyCode      
+MODULE:                 -- fourBitEightBang_asm.obj --
+- PROCEDURES:
+     fourBitEightBang                          E9FE      15      21       6   MyCode      
+- VARIABLES:
+MODULE:                 -- fourBitFiveBang_asm.obj --
+- PROCEDURES:
+     fourBitFiveBang                           EA13      15      21       6   MyCode      
+- VARIABLES:
+MODULE:                 -- fourBitFourBang_asm.obj --
+- PROCEDURES:
+     fourBitFourBang                           EA28      15      21       6   MyCode      
+- VARIABLES:
+MODULE:                 -- fourBitNineBang_asm.obj --
+- PROCEDURES:
+     fourBitNineBang                           EA3D      15      21       6   MyCode      
+- VARIABLES:
+MODULE:                 -- fourBitSevenBang_asm.obj --
+- PROCEDURES:
+     fourBitSevenBang                          EA52      15      21       6   MyCode      
+- VARIABLES:
+MODULE:                 -- fourBitSixBang_asm.obj --
+- PROCEDURES:
+     fourBitSixBang                            EA67      15      21       6   MyCode      
+- VARIABLES:
+MODULE:                 -- fourBitSoloBang_asm.obj --
+- PROCEDURES:
+     fourBitSoloBang                           EA7C      15      21       6   MyCode      
+- VARIABLES:
+MODULE:                 -- fourBitThreeBang_asm.obj --
+- PROCEDURES:
+     fourBitThreeBang                          EA91      15      21       6   MyCode      
+- VARIABLES:
+MODULE:                 -- fourBitTwoBang_asm.obj --
+- PROCEDURES:
+     fourBitTwoBang                            EAA6      15      21       6   MyCode      
+- VARIABLES:
+MODULE:                 -- getClock_asm.obj --
+- PROCEDURES:
+     getClock                                  EABB      6B     107       1   MyCode      
+- VARIABLES:
+MODULE:                 -- getDay_asm.obj --
+- PROCEDURES:
+     getDay                                    EB26      27      39       1   MyCode      
+     one                                       EB4D       7       7       0   MyCode      
+     isOne                                     EB54      13      19       0   MyCode      
+     three                                     EB67       5       5       0   MyCode      
+     getOnesPlace                              EB6C      37      55       0   MyCode      
+     data1XXX                                  EBA3      13      19       0   MyCode      
+     data1001                                  EBB6       7       7       0   MyCode      
+     data0001                                  EBBD       7       7       0   MyCode      
+     data001X                                  EBC4      13      19       0   MyCode      
+     data0011                                  EBD7       7       7       0   MyCode      
+     data01XX                                  EBDE      1F      31       0   MyCode      
+     data0101                                  EBFD       7       7       0   MyCode      
+     data011X                                  EC04      18      24       0   MyCode      
+     data0111                                  EC1C       5       5       0   MyCode      
+     done                                      EC21       1       1       0   MyCode      
+- VARIABLES:
+MODULE:                 -- getHour_asm.obj --
+- PROCEDURES:
+     getHour                                   EC22      1F      31       1   MyCode      
+     one                                       EC41       7       7       0   MyCode      
+     getOnesPlace                              EC48      36      54       0   MyCode      
+     data1XXX                                  EC7E      1A      26       0   MyCode      
+     data1001                                  EC98       6       6       0   MyCode      
+     data0001                                  EC9E       6       6       0   MyCode      
+     data001X                                  ECA4      12      18       0   MyCode      
+     data0011                                  ECB6       6       6       0   MyCode      
+     data01XX                                  ECBC      1E      30       0   MyCode      
+     data0101                                  ECDA       6       6       0   MyCode      
+     data011X                                  ECE0      12      18       0   MyCode      
+     data0111                                  ECF2       6       6       0   MyCode      
+- VARIABLES:
+MODULE:                 -- getMin_asm.obj --
+- PROCEDURES:
+     getMin                                    ECF8      30      48       1   MyCode      
+     firstBitIsOne                             ED28      1F      31       0   MyCode      
+     secondBitIsOne                            ED47      13      19       0   MyCode      
+     thirdBitIsOne                             ED5A       7       7       0   MyCode      
+     firstAndSecondBitsAreOne                  ED61       7       7       0   MyCode      
+     firstAndThirdBitsAreOne                   ED68       7       7       0   MyCode      
+     secondAndThirdBitsAreOne                  ED6F       5       5       0   MyCode      
+     getOnesPlace                              ED74      37      55       0   MyCode      
+     data1XXX                                  EDAB      13      19       0   MyCode      
+     data1001                                  EDBE       7       7       0   MyCode      
+     data0001                                  EDC5       7       7       0   MyCode      
+     data001X                                  EDCC      13      19       0   MyCode      
+     data0011                                  EDDF       7       7       0   MyCode      
+     data01XX                                  EDE6      1F      31       0   MyCode      
+     data0101                                  EE05       7       7       0   MyCode      
+     data011X                                  EE0C      13      19       0   MyCode      
+     data0111                                  EE1F       5       5       0   MyCode      
+     done                                      EE24       1       1       0   MyCode      
+- VARIABLES:
+MODULE:                 -- getMonth_asm.obj --
+- PROCEDURES:
+     getMonth                                  EE25      1F      31       1   MyCode      
+     one                                       EE44       7       7       0   MyCode      
+     getOnesPlace                              EE4B      36      54       0   MyCode      
+     data1XXX                                  EE81      1A      26       0   MyCode      
+     data1001                                  EE9B       6       6       0   MyCode      
+     data0001                                  EEA1       6       6       0   MyCode      
+     data001X                                  EEA7      12      18       0   MyCode      
+     data0011                                  EEB9       6       6       0   MyCode      
+     data01XX                                  EEBF      1E      30       0   MyCode      
+     data0101                                  EEDD       6       6       0   MyCode      
+     data011X                                  EEE3      17      23       0   MyCode      
+     data0111                                  EEFA       6       6       0   MyCode      
+- VARIABLES:
+MODULE:                 -- getSec_asm.obj --
+- PROCEDURES:
+     getSec                                    EF00      30      48       1   MyCode      
+     firstBitIsOne                             EF30      1F      31       0   MyCode      
+     secondBitIsOne                            EF4F      13      19       0   MyCode      
+     thirdBitIsOne                             EF62       7       7       0   MyCode      
+     firstAndSecondBitsAreOne                  EF69       7       7       0   MyCode      
+     firstAndThirdBitsAreOne                   EF70       7       7       0   MyCode      
+     secondAndThirdBitsAreOne                  EF77       5       5       0   MyCode      
+     getOnesPlace                              EF7C      37      55       0   MyCode      
+     data1XXX                                  EFB3      13      19       0   MyCode      
+     data1001                                  EFC6       7       7       0   MyCode      
+     data0001                                  EFCD       7       7       0   MyCode      
+     data001X                                  EFD4      13      19       0   MyCode      
+     data0011                                  EFE7       7       7       0   MyCode      
+     data01XX                                  EFEE      1F      31       0   MyCode      
+     data0101                                  F00D       7       7       0   MyCode      
+     data011X                                  F014      13      19       0   MyCode      
+     data0111                                  F027       5       5       0   MyCode      
+     done                                      F02C       1       1       0   MyCode      
+- VARIABLES:
+MODULE:                 -- getYear_asm.obj --
+- PROCEDURES:
+     getYear                                   F02D      27      39       1   MyCode      
+     one                                       F054       7       7       0   MyCode      
+     isOne                                     F05B      13      19       0   MyCode      
+     three                                     F06E       5       5       0   MyCode      
+     getOnesPlace                              F073      37      55       0   MyCode      
+     data1XXX                                  F0AA      13      19       0   MyCode      
+     data1001                                  F0BD       7       7       0   MyCode      
+     data0001                                  F0C4       7       7       0   MyCode      
+     data001X                                  F0CB      13      19       0   MyCode      
+     data0011                                  F0DE       7       7       0   MyCode      
+     data01XX                                  F0E5      1F      31       0   MyCode      
+     data0101                                  F104       7       7       0   MyCode      
+     data011X                                  F10B      18      24       0   MyCode      
+     data0111                                  F123       5       5       0   MyCode      
+     done                                      F128       1       1       0   MyCode      
+- VARIABLES:
+MODULE:                 -- i2cClock_asm.obj --
+- PROCEDURES:
+     i2cClock                                  F129      13      19     168   MyCode      
+- VARIABLES:
+MODULE:                 -- i2cStart_asm.obj --
+- PROCEDURES:
+     i2cStart                                  F13C      21      33       3   MyCode      
+- VARIABLES:
+MODULE:                 -- i2cStop_asm.obj --
+- PROCEDURES:
+     i2cStop                                   F15D       D      13       2   MyCode      
+- VARIABLES:
+MODULE:                 -- initializeLCD_asm.obj --
+- PROCEDURES:
+     initializeLCD                             F16A      D0     208       1   MyCode      
+- VARIABLES:
+MODULE:                 -- main_asm.obj --
+- PROCEDURES:
+     _Startup                                  E000      8E     142       0   .init       
+     main                                      E000       0       0       0   .init       
+     mainLoop                                  E08E       8       8       0   .init       
+     decrement                                 E096      42      66       0   .init       
+     toggleHeartbeat                           E0D8       B      11       0   .init       
+     displayDate                               E0E3       9       9       0   .init       
+     done                                      E0EC       2       2       0   .init       
+- VARIABLES:
+     rowNum                                      60       1       1      13   MY_ZEROPAGE 
+     btnClicks                                   61       1       1      25   MY_ZEROPAGE 
+     btnCode                                     62       1       1      35   MY_ZEROPAGE 
+     busLinesInput                               63       1       1      19   MY_ZEROPAGE 
+     heartbeat                                   64       1       1       3   MY_ZEROPAGE 
+     waitTime                                    65       1       1      16   MY_ZEROPAGE 
+     waitNumber                                  66       1       1       4   MY_ZEROPAGE 
+     yearTensPlace                               67       1       1      21   MY_ZEROPAGE 
+     yearOnesPlace                               68       1       1      24   MY_ZEROPAGE 
+     dayTensPlace                                69       1       1      17   MY_ZEROPAGE 
+     dayOnesPlace                                6A       1       1      24   MY_ZEROPAGE 
+     monthTensPlace                              6B       1       1      15   MY_ZEROPAGE 
+     monthOnesPlace                              6C       1       1      24   MY_ZEROPAGE 
+     hourTensPlace                               6D       1       1      15   MY_ZEROPAGE 
+     hourOnesPlace                               6E       1       1      23   MY_ZEROPAGE 
+     minTensPlace                                6F       1       1      20   MY_ZEROPAGE 
+     minOnesPlace                                70       1       1      23   MY_ZEROPAGE 
+     secTensPlace                                71       1       1      20   MY_ZEROPAGE 
+     secOnesPlace                                72       1       1      23   MY_ZEROPAGE 
+- LABELS:
+     __SEG_END_SSTACK                           140       0       0       1               
+MODULE:                 -- moveCursor_asm.obj --
+- PROCEDURES:
+     secondLine                                F23E      1B      27       2   MyCode      
+- VARIABLES:
+MODULE:                 -- readAcknowledge_asm.obj --
+- PROCEDURES:
+     readAck                                   F259       F      15       7   MyCode      
+- VARIABLES:
+MODULE:                 -- secAddress_asm.obj --
+- PROCEDURES:
+     secAddress                                F268      1B      27       2   MyCode      
+- VARIABLES:
+MODULE:                 -- selectLEDS_asm.obj --
+- PROCEDURES:
+     selectY0                                  F283       A      10      21   MyCode      
+     selectY1                                  F28D       A      10       7   MyCode      
+- VARIABLES:
+MODULE:                 -- selectY2_asm.obj --
+- PROCEDURES:
+     selectY2                                  F297       A      10       4   MyCode      
+- VARIABLES:
+MODULE:                 -- selectY3_asm.obj --
+- PROCEDURES:
+     selectY3                                  F2A1      32      50       1   MyCode      
+     press                                     F2D3       4       4       0   MyCode      
+- VARIABLES:
+MODULE:                 -- selectY4_asm.obj --
+- PROCEDURES:
+     selectY4                                  F2D7       A      10       4   MyCode      
+- VARIABLES:
+MODULE:                 -- setClock_asm.obj --
+- PROCEDURES:
+     setClock                                  F2E1      57      87      10   MyCode      
+- VARIABLES:
+MODULE:                 -- setDay_asm.obj --
+- PROCEDURES:
+     setDay                                    F338      1E      30       1   MyCode      
+     three                                     F356       A      10       0   MyCode      
+     two                                       F360       C      12       0   MyCode      
+     one                                       F36C       A      10       0   MyCode      
+     setOnesPlace                              F376      2D      45       0   MyCode      
+     setNine                                   F3A3       4       4       0   MyCode      
+     setEight                                  F3A7       4       4       0   MyCode      
+     setSeven                                  F3AB       4       4       0   MyCode      
+     setSix                                    F3AF       4       4       0   MyCode      
+     setFive                                   F3B3       4       4       0   MyCode      
+     setFour                                   F3B7       4       4       0   MyCode      
+     setThree                                  F3BB       4       4       0   MyCode      
+     setTwo                                    F3BF       4       4       0   MyCode      
+     setOne                                    F3C3       4       4       0   MyCode      
+- VARIABLES:
+MODULE:                 -- setHour_asm.obj --
+- PROCEDURES:
+     setHour                                   F3C7      1A      26       1   MyCode      
+     one                                       F3E1       5       5       0   MyCode      
+     setOnesPlace                              F3E6      2D      45       0   MyCode      
+     setNine                                   F413       4       4       0   MyCode      
+     setEight                                  F417       4       4       0   MyCode      
+     setSeven                                  F41B       4       4       0   MyCode      
+     setSix                                    F41F       4       4       0   MyCode      
+     setFive                                   F423       4       4       0   MyCode      
+     setFour                                   F427       4       4       0   MyCode      
+     setThree                                  F42B       4       4       0   MyCode      
+     setTwo                                    F42F       4       4       0   MyCode      
+     setOne                                    F433       4       4       0   MyCode      
+- VARIABLES:
+MODULE:                 -- setMin_asm.obj --
+- PROCEDURES:
+     setMin                                    F437      24      36       1   MyCode      
+     five                                      F45B      11      17       0   MyCode      
+     four                                      F46C      11      17       0   MyCode      
+     three                                     F47D      11      17       0   MyCode      
+     two                                       F48E      11      17       0   MyCode      
+     one                                       F49F       F      15       0   MyCode      
+     setOnesPlace                              F4AE      2D      45       0   MyCode      
+     setNine                                   F4DB       4       4       0   MyCode      
+     setEight                                  F4DF       4       4       0   MyCode      
+     setSeven                                  F4E3       4       4       0   MyCode      
+     setSix                                    F4E7       4       4       0   MyCode      
+     setFive                                   F4EB       4       4       0   MyCode      
+     setFour                                   F4EF       4       4       0   MyCode      
+     setThree                                  F4F3       4       4       0   MyCode      
+     setTwo                                    F4F7       4       4       0   MyCode      
+     setOne                                    F4FB       4       4       0   MyCode      
+- VARIABLES:
+MODULE:                 -- setMonth_asm.obj --
+- PROCEDURES:
+     setMonth                                  F4FF      16      22       1   MyCode      
+     one                                       F515       5       5       0   MyCode      
+     setOnesPlace                              F51A      2D      45       0   MyCode      
+     setNine                                   F547       4       4       0   MyCode      
+     setEight                                  F54B       4       4       0   MyCode      
+     setSeven                                  F54F       4       4       0   MyCode      
+     setSix                                    F553       4       4       0   MyCode      
+     setFive                                   F557       4       4       0   MyCode      
+     setFour                                   F55B       4       4       0   MyCode      
+     setThree                                  F55F       4       4       0   MyCode      
+     setTwo                                    F563       4       4       0   MyCode      
+     setOne                                    F567       4       4       0   MyCode      
+- VARIABLES:
+MODULE:                 -- setSec_asm.obj --
+- PROCEDURES:
+     setSec                                    F56B      24      36       1   MyCode      
+     five                                      F58F      11      17       0   MyCode      
+     four                                      F5A0      11      17       0   MyCode      
+     three                                     F5B1      11      17       0   MyCode      
+     two                                       F5C2      11      17       0   MyCode      
+     one                                       F5D3       F      15       0   MyCode      
+     setOnesPlace                              F5E2      2D      45       0   MyCode      
+     setNine                                   F60F       4       4       0   MyCode      
+     setEight                                  F613       4       4       0   MyCode      
+     setSeven                                  F617       4       4       0   MyCode      
+     setSix                                    F61B       4       4       0   MyCode      
+     setFive                                   F61F       4       4       0   MyCode      
+     setFour                                   F623       4       4       0   MyCode      
+     setThree                                  F627       4       4       0   MyCode      
+     setTwo                                    F62B       4       4       0   MyCode      
+     setOne                                    F62F       4       4       0   MyCode      
+- VARIABLES:
+MODULE:                 -- setYear_asm.obj --
+- PROCEDURES:
+     setYear                                   F633      2C      44       1   MyCode      
+     setBit7                                   F65F      18      24       0   MyCode      
+     setBit6                                   F677      1E      30       0   MyCode      
+     setBit5                                   F695      15      21       0   MyCode      
+     setBit4                                   F6AA       5       5       0   MyCode      
+     setOnesPlace                              F6AF      2D      45       0   MyCode      
+     setNine                                   F6DC       4       4       0   MyCode      
+     setEight                                  F6E0       4       4       0   MyCode      
+     setSeven                                  F6E4       4       4       0   MyCode      
+     setSix                                    F6E8       4       4       0   MyCode      
+     setFive                                   F6EC       4       4       0   MyCode      
+     setFour                                   F6F0       4       4       0   MyCode      
+     setThree                                  F6F4       4       4       0   MyCode      
+     setTwo                                    F6F8       4       4       0   MyCode      
+     setOne                                    F6FC       4       4       0   MyCode      
+- VARIABLES:
+MODULE:                 -- subRtnCol_asm.obj --
+- PROCEDURES:
+     subRtnCol                                 F700      10      16       4   MyCode      
+- VARIABLES:
+MODULE:                 -- subRtnHb_asm.obj --
+- PROCEDURES:
+     subRtnHb                                  F710      17      23       1   MyCode      
+     turnOn                                    F727       B      11       0   MyCode      
+- VARIABLES:
+MODULE:                 -- subRtnRows_asm.obj --
+- PROCEDURES:
+     subRtnRows                                F732       D      13       1   MyCode      
+     setRow0                                   F73F      19      25       1   MyCode      
+     setRow1                                   F758      19      25       1   MyCode      
+     setRow2                                   F771      19      25       1   MyCode      
+     setRow3                                   F78A      19      25       1   MyCode      
+- VARIABLES:
+MODULE:                 -- wait100us_asm.obj --
+- PROCEDURES:
+     wait100us                                 F7A3       5       5       1   MyCode      
+     decrement                                 F7A8       C      12       0   MyCode      
+     wait_loop                                 F7B4       6       6       0   MyCode      
+     done                                      F7BA       1       1       0   MyCode      
+- VARIABLES:
+MODULE:                 -- wait15ms_asm.obj --
+- PROCEDURES:
+     wait15ms                                  F7BB       5       5      12   MyCode      
+     decrement                                 F7C0       C      12       0   MyCode      
+     wait_loop                                 F7CC       6       6       0   MyCode      
+     done                                      F7D2       2       2       0   MyCode      
+- VARIABLES:
+MODULE:                 -- wait1600us_asm.obj --
+- PROCEDURES:
+     wait1600us                                F7D4       5       5       2   MyCode      
+     decrement                                 F7D9       C      12       0   MyCode      
+     wait_loop                                 F7E5       6       6       0   MyCode      
+     done                                      F7EB       1       1       0   MyCode      
+- VARIABLES:
+MODULE:                 -- wait40us_asm.obj --
+- PROCEDURES:
+     wait40us                                  F7EC       5       5       1   MyCode      
+     decrement                                 F7F1       C      12       0   MyCode      
+     wait_loop                                 F7FD       6       6       0   MyCode      
+     done                                      F803       1       1       0   MyCode      
+- VARIABLES:
+MODULE:                 -- wait4100us_asm.obj --
+- PROCEDURES:
+     wait4100us                                F804       5       5       1   MyCode      
+     decrement                                 F809       C      12       0   MyCode      
+     wait_loop                                 F815       6       6       0   MyCode      
+     done                                      F81B       1       1       0   MyCode      
+- VARIABLES:
+MODULE:                 -- writeA_lowercase_asm.obj --
+- PROCEDURES:
+     writeA_lowercase                          F81C      1B      27       2   MyCode      
+- VARIABLES:
+MODULE:                 -- writeAcknowledge_asm.obj --
+- PROCEDURES:
+     writeAck                                  F837       B      11      11   MyCode      
+- VARIABLES:
+MODULE:                 -- writeColon_asm.obj --
+- PROCEDURES:
+     writeColon                                F842      1B      27      23   MyCode      
+- VARIABLES:
+MODULE:                 -- writeD_asm.obj --
+- PROCEDURES:
+     writeD                                    F85D      1B      27       1   MyCode      
+- VARIABLES:
+MODULE:                 -- writeDay_asm.obj --
+- PROCEDURES:
+     writeDay                                  F878      11      17       1   MyCode      
+     one                                       F889       5       5       0   MyCode      
+     two                                       F88E       5       5       0   MyCode      
+     three                                     F893       3       3       0   MyCode      
+     writeTheOnesPlace                         F896      23      35       0   MyCode      
+     equalsOne                                 F8B9       5       5       0   MyCode      
+     equalsTwo                                 F8BE       5       5       0   MyCode      
+     equalsThree                               F8C3       5       5       0   MyCode      
+     equalsFour                                F8C8       5       5       0   MyCode      
+     equalsFive                                F8CD       5       5       0   MyCode      
+     equalsSix                                 F8D2       5       5       0   MyCode      
+     equalsSeven                               F8D7       5       5       0   MyCode      
+     equalsEight                               F8DC       5       5       0   MyCode      
+     equalsNine                                F8E1       3       3       0   MyCode      
+     done                                      F8E4       4       4       0   MyCode      
+- VARIABLES:
+MODULE:                 -- writeE_lowercase_asm.obj --
+- PROCEDURES:
+     writeE_lowercase                          F8E8      1B      27       4   MyCode      
+- VARIABLES:
+MODULE:                 -- writeEight_asm.obj --
+- PROCEDURES:
+     writeEight                                F903      1B      27       8   MyCode      
+- VARIABLES:
+MODULE:                 -- writeFive_asm.obj --
+- PROCEDURES:
+     writeFive                                 F91E      1B      27       9   MyCode      
+- VARIABLES:
+MODULE:                 -- writeForwardSlash_asm.obj --
+- PROCEDURES:
+     writeForwardSlash                         F939      1B      27      22   MyCode      
+- VARIABLES:
+MODULE:                 -- writeFour_asm.obj --
+- PROCEDURES:
+     writeFour                                 F954      1B      27       9   MyCode      
+- VARIABLES:
+MODULE:                 -- writeH_lowercase_asm.obj --
+- PROCEDURES:
+     writeH_lowercase                          F96F      1B      27       2   MyCode      
+- VARIABLES:
+MODULE:                 -- writeHour_asm.obj --
+- PROCEDURES:
+     writeHour                                 F98A       B      11       1   MyCode      
+     one                                       F995       3       3       0   MyCode      
+     writeTheOnesPlace                         F998      23      35       0   MyCode      
+     equalsOne                                 F9BB       5       5       0   MyCode      
+     equalsTwo                                 F9C0       5       5       0   MyCode      
+     equalsThree                               F9C5       5       5       0   MyCode      
+     equalsFour                                F9CA       5       5       0   MyCode      
+     equalsFive                                F9CF       5       5       0   MyCode      
+     equalsSix                                 F9D4       5       5       0   MyCode      
+     equalsSeven                               F9D9       5       5       0   MyCode      
+     equalsEight                               F9DE       5       5       0   MyCode      
+     equalsNine                                F9E3       3       3       0   MyCode      
+     done                                      F9E6       4       4       0   MyCode      
+- VARIABLES:
+MODULE:                 -- writeI_lowercase_asm.obj --
+- PROCEDURES:
+     writeI_lowercase                          F9EA      1B      27       4   MyCode      
+- VARIABLES:
+MODULE:                 -- writeLCD_asm.obj --
+- PROCEDURES:
+     writeLCD                                  FA05       7       7      64   MyCode      
+- VARIABLES:
+MODULE:                 -- writeM_lowercase_asm.obj --
+- PROCEDURES:
+     writeM_lowercase                          FA0C      1B      27       2   MyCode      
+- VARIABLES:
+MODULE:                 -- writeMin_asm.obj --
+- PROCEDURES:
+     writeMin                                  FA27      1A      26       1   MyCode      
+     one                                       FA41       5       5       0   MyCode      
+     two                                       FA46       5       5       0   MyCode      
+     three                                     FA4B       5       5       0   MyCode      
+     four                                      FA50       5       5       0   MyCode      
+     five                                      FA55       5       5       0   MyCode      
+     six                                       FA5A       3       3       0   MyCode      
+     writeTheOnesPlace                         FA5D      23      35       0   MyCode      
+     equalsOne                                 FA80       5       5       0   MyCode      
+     equalsTwo                                 FA85       5       5       0   MyCode      
+     equalsThree                               FA8A       5       5       0   MyCode      
+     equalsFour                                FA8F       5       5       0   MyCode      
+     equalsFive                                FA94       5       5       0   MyCode      
+     equalsSix                                 FA99       5       5       0   MyCode      
+     equalsSeven                               FA9E       5       5       0   MyCode      
+     equalsEight                               FAA3       5       5       0   MyCode      
+     equalsNine                                FAA8       3       3       0   MyCode      
+     done                                      FAAB       4       4       0   MyCode      
+- VARIABLES:
+MODULE:                 -- writeMonth_asm.obj --
+- PROCEDURES:
+     writeMonth                                FAAF       B      11       1   MyCode      
+     one                                       FABA       3       3       0   MyCode      
+     writeTheOnesPlace                         FABD      23      35       0   MyCode      
+     equalsOne                                 FAE0       5       5       0   MyCode      
+     equalsTwo                                 FAE5       5       5       0   MyCode      
+     equalsThree                               FAEA       5       5       0   MyCode      
+     equalsFour                                FAEF       5       5       0   MyCode      
+     equalsFive                                FAF4       5       5       0   MyCode      
+     equalsSix                                 FAF9       5       5       0   MyCode      
+     equalsSeven                               FAFE       5       5       0   MyCode      
+     equalsEight                               FB03       5       5       0   MyCode      
+     equalsNine                                FB08       3       3       0   MyCode      
+     done                                      FB0B       4       4       0   MyCode      
+- VARIABLES:
+MODULE:                 -- writeNine_asm.obj --
+- PROCEDURES:
+     writeNine                                 FB0F      1B      27       8   MyCode      
+- VARIABLES:
+MODULE:                 -- writeOne_asm.obj --
+- PROCEDURES:
+     writeOne                                  FB2A      1B      27      13   MyCode      
+- VARIABLES:
+MODULE:                 -- writeQuestion_asm.obj --
+- PROCEDURES:
+     writeQuestion                             FB45      1B      27       1   MyCode      
+- VARIABLES:
+MODULE:                 -- writeQuote_asm.obj --
+- PROCEDURES:
+     writeQuote                                FB60      1B      27       1   MyCode      
+- VARIABLES:
+MODULE:                 -- writeS_lowercase_asm.obj --
+- PROCEDURES:
+     writeS_lowercase                          FB7B      1B      27       3   MyCode      
+- VARIABLES:
+MODULE:                 -- writeSec_asm.obj --
+- PROCEDURES:
+     writeSec                                  FB96      1A      26       1   MyCode      
+     one                                       FBB0       5       5       0   MyCode      
+     two                                       FBB5       5       5       0   MyCode      
+     three                                     FBBA       5       5       0   MyCode      
+     four                                      FBBF       3       3       0   MyCode      
+     five                                      FBC2       5       5       0   MyCode      
+     six                                       FBC7       3       3       0   MyCode      
+     writeTheOnesPlace                         FBCA      23      35       0   MyCode      
+     equalsOne                                 FBED       5       5       0   MyCode      
+     equalsTwo                                 FBF2       5       5       0   MyCode      
+     equalsThree                               FBF7       5       5       0   MyCode      
+     equalsFour                                FBFC       5       5       0   MyCode      
+     equalsFive                                FC01       5       5       0   MyCode      
+     equalsSix                                 FC06       5       5       0   MyCode      
+     equalsSeven                               FC0B       5       5       0   MyCode      
+     equalsEight                               FC10       5       5       0   MyCode      
+     equalsNine                                FC15       3       3       0   MyCode      
+     done                                      FC18       4       4       0   MyCode      
+- VARIABLES:
+MODULE:                 -- writeSeven_asm.obj --
+- PROCEDURES:
+     writeSeven                                FC1C      1B      27       8   MyCode      
+- VARIABLES:
+MODULE:                 -- writeSix_asm.obj --
+- PROCEDURES:
+     writeSix                                  FC37      1B      27       9   MyCode      
+- VARIABLES:
+MODULE:                 -- writeSpace_asm.obj --
+- PROCEDURES:
+     writeSpace                                FC52      1B      27       7   MyCode      
+- VARIABLES:
+MODULE:                 -- writeT_asm.obj --
+- PROCEDURES:
+     writeT                                    FC6D      1B      27       1   MyCode      
+- VARIABLES:
+MODULE:                 -- writeT_lowercase_asm.obj --
+- PROCEDURES:
+     writeT_lowercase                          FC88      1B      27       4   MyCode      
+- VARIABLES:
+MODULE:                 -- writeThree_asm.obj --
+- PROCEDURES:
+     writeThree                                FCA3      1B      27      13   MyCode      
+- VARIABLES:
+MODULE:                 -- writeTwo_asm.obj --
+- PROCEDURES:
+     writeTwo                                  FCBE      1B      27      12   MyCode      
+- VARIABLES:
+MODULE:                 -- writeW_asm.obj --
+- PROCEDURES:
+     writeW                                    FCD9      1B      27       1   MyCode      
+- VARIABLES:
+MODULE:                 -- writeYear_asm.obj --
+- PROCEDURES:
+     writeYear                                 FCF4      22      34       1   MyCode      
+     one                                       FD16       5       5       0   MyCode      
+     two                                       FD1B       5       5       0   MyCode      
+     three                                     FD20       5       5       0   MyCode      
+     four                                      FD25       5       5       0   MyCode      
+     five                                      FD2A       5       5       0   MyCode      
+     six                                       FD2F      12      18       0   MyCode      
+     writeTheOnesPlace                         FD41      23      35       0   MyCode      
+     equalsOne                                 FD64       5       5       0   MyCode      
+     equalsTwo                                 FD69       5       5       0   MyCode      
+     equalsThree                               FD6E       5       5       0   MyCode      
+     equalsFour                                FD73       5       5       0   MyCode      
+     equalsFive                                FD78       5       5       0   MyCode      
+     equalsSix                                 FD7D       5       5       0   MyCode      
+     equalsSeven                               FD82       5       5       0   MyCode      
+     equalsEight                               FD87       5       5       0   MyCode      
+     equalsNine                                FD8C       3       3       0   MyCode      
+     done                                      FD8F       4       4       0   MyCode      
+- VARIABLES:
+MODULE:                 -- writeZero_asm.obj --
+- PROCEDURES:
+     writeZero                                 FD93      1B      27      14   MyCode      
+- VARIABLES:
+
+*********************************************************************************************
+MODULE STATISTIC
+  Name                                      Data   Code  Const
+---------------------------------------------------------------------------------------------
+  Date_asm.obj                                 0     40      0
+  MCUinit_asm.obj                              0    118     48
+  Time_asm.obj                                 0     34      0
+  Time2GetReal_asm.obj                         0     55      0
+  btnA_asm.obj                                 0     22      0
+  btnB_asm.obj                                 0     22      0
+  btnC_asm.obj                                 0     22      0
+  btnD_asm.obj                                 0     22      0
+  btnEight_asm.obj                             0    169      0
+  btnFive_asm.obj                              0    169      0
+  btnFour_asm.obj                              0    169      0
+  btnHandled_asm.obj                           0     23      0
+  btnHash_asm.obj                              0     22      0
+  btnNine_asm.obj                              0    169      0
+  btnOne_asm.obj                               0    169      0
+  btnSeven_asm.obj                             0    169      0
+  btnSix_asm.obj                               0    169      0
+  btnStar_asm.obj                              0     77      0
+  btnThree_asm.obj                             0    169      0
+  btnTwo_asm.obj                               0    169      0
+  btnZero_asm.obj                              0    169      0
+  clearLCD_asm.obj                             0     37      0
+  clockAddress_asm.obj                         0     30      0
+  clockG2T_asm.obj                             0      7      0
+  columnOne_asm.obj                            0     54      0
+  columnThree_asm.obj                          0     54      0
+  columnTwo_asm.obj                            0     54      0
+  columnZero_asm.obj                           0     55      0
+  fourBitEightBang_asm.obj                     0     21      0
+  fourBitFiveBang_asm.obj                      0     21      0
+  fourBitFourBang_asm.obj                      0     21      0
+  fourBitNineBang_asm.obj                      0     21      0
+  fourBitSevenBang_asm.obj                     0     21      0
+  fourBitSixBang_asm.obj                       0     21      0
+  fourBitSoloBang_asm.obj                      0     21      0
+  fourBitThreeBang_asm.obj                     0     21      0
+  fourBitTwoBang_asm.obj                       0     21      0
+  getClock_asm.obj                             0    107      0
+  getDay_asm.obj                               0    252      0
+  getHour_asm.obj                              0    214      0
+  getMin_asm.obj                               0    301      0
+  getMonth_asm.obj                             0    219      0
+  getSec_asm.obj                               0    301      0
+  getYear_asm.obj                              0    252      0
+  i2cClock_asm.obj                             0     19      0
+  i2cStart_asm.obj                             0     33      0
+  i2cStop_asm.obj                              0     13      0
+  initializeLCD_asm.obj                        0    208      0
+  main_asm.obj                                19    238      0
+  moveCursor_asm.obj                           0     31      0
+  readAcknowledge_asm.obj                      0     15      0
+  secAddress_asm.obj                           0     27      0
+  selectLEDS_asm.obj                           0     20      0
+  selectY2_asm.obj                             0     10      0
+  selectY3_asm.obj                             0     54      0
+  selectY4_asm.obj                             0     10      0
+  setClock_asm.obj                             0     87      0
+  setDay_asm.obj                               0    143      0
+  setHour_asm.obj                              0    112      0
+  setMin_asm.obj                               0    200      0
+  setMonth_asm.obj                             0    108      0
+  setSec_asm.obj                               0    200      0
+  setYear_asm.obj                              0    205      0
+  subRtnCol_asm.obj                            0     16      0
+  subRtnHb_asm.obj                             0     34      0
+  subRtnRows_asm.obj                           0    113      0
+  wait100us_asm.obj                            0     24      0
+  wait15ms_asm.obj                             0     25      0
+  wait1600us_asm.obj                           0     24      0
+  wait40us_asm.obj                             0     24      0
+  wait4100us_asm.obj                           0     24      0
+  writeA_lowercase_asm.obj                     0     27      0
+  writeAcknowledge_asm.obj                     0     11      0
+  writeColon_asm.obj                           0     27      0
+  writeD_asm.obj                               0     27      0
+  writeDay_asm.obj                             0    112      0
+  writeE_lowercase_asm.obj                     0     27      0
+  writeEight_asm.obj                           0     27      0
+  writeFive_asm.obj                            0     27      0
+  writeForwardSlash_asm.obj                    0     27      0
+  writeFour_asm.obj                            0     27      0
+  writeH_lowercase_asm.obj                     0     27      0
+  writeHour_asm.obj                            0     96      0
+  writeI_lowercase_asm.obj                     0     27      0
+  writeLCD_asm.obj                             0      7      0
+  writeM_lowercase_asm.obj                     0     27      0
+  writeMin_asm.obj                             0    136      0
+  writeMonth_asm.obj                           0     96      0
+  writeNine_asm.obj                            0     27      0
+  writeOne_asm.obj                             0     27      0
+  writeQuestion_asm.obj                        0     27      0
+  writeQuote_asm.obj                           0     27      0
+  writeS_lowercase_asm.obj                     0     27      0
+  writeSec_asm.obj                             0    134      0
+  writeSeven_asm.obj                           0     27      0
+  writeSix_asm.obj                             0     27      0
+  writeSpace_asm.obj                           0     27      0
+  writeT_asm.obj                               0     27      0
+  writeT_lowercase_asm.obj                     0     27      0
+  writeThree_asm.obj                           0     27      0
+  writeTwo_asm.obj                             0     27      0
+  writeW_asm.obj                               0     27      0
+  writeYear_asm.obj                            0    159      0
+  writeZero_asm.obj                            0     27      0
+  other                                       64      2      0
+
+*********************************************************************************************
+SECTION USE IN OBJECT-ALLOCATION SECTION
+---------------------------------------------------------------------------------------------
+SECTION: ".text"
+  VAR00001 VAR00002 VAR00003 VAR00004 VAR00005 VAR00006 VAR00007 VAR00008 
+  VAR00009 VAR00010 VAR00011 VAR00012 VAR00013 VAR00014 VAR00015 VAR00016 
+  VAR00017 VAR00018 VAR00019 VAR00020 VAR00021 VAR00022 VAR00023 VAR00024 
+  VAR00025 
+SECTION: ".init"
+  main _Startup mainLoop decrement toggleHeartbeat displayDate done 
+SECTION: "MY_ZEROPAGE"
+  rowNum btnClicks btnCode busLinesInput heartbeat waitTime waitNumber 
+  yearTensPlace yearOnesPlace dayTensPlace dayOnesPlace monthTensPlace 
+  monthOnesPlace hourTensPlace hourOnesPlace minTensPlace minOnesPlace 
+  secTensPlace secOnesPlace 
+SECTION: "MyCode"
+  date time time2GetReal btnA pressed btnB pressed btnC pressed btnD pressed 
+  btn8 pressed done monthTens monthOnes dayTens dayOnes yearTens yearOnes 
+  hourTens hourOnes minTens minOnes secTens secOnes btn5 pressed done monthTens 
+  monthOnes dayTens dayOnes yearTens yearOnes hourTens hourOnes minTens minOnes 
+  secTens secOnes btn4 pressed done monthTens monthOnes dayTens dayOnes 
+  yearTens yearOnes hourTens hourOnes minTens minOnes secTens secOnes 
+  btnHandled btnHash pressed btn9 pressed done monthTens monthOnes dayTens 
+  dayOnes yearTens yearOnes hourTens hourOnes minTens minOnes secTens secOnes 
+  btn1 pressed done monthTens monthOnes dayTens dayOnes yearTens yearOnes 
+  hourTens hourOnes minTens minOnes secTens secOnes btn7 pressed done monthTens 
+  monthOnes dayTens dayOnes yearTens yearOnes hourTens hourOnes minTens minOnes 
+  secTens secOnes btn6 pressed done monthTens monthOnes dayTens dayOnes 
+  yearTens yearOnes hourTens hourOnes minTens minOnes secTens secOnes btnStar 
+  pressed btn3 pressed done monthTens monthOnes dayTens dayOnes yearTens 
+  yearOnes hourTens hourOnes minTens minOnes secTens secOnes btn2 pressed done 
+  monthTens monthOnes dayTens dayOnes yearTens yearOnes hourTens hourOnes 
+  minTens minOnes secTens secOnes btn0 pressed done monthTens monthOnes dayTens 
+  dayOnes yearTens yearOnes hourTens hourOnes minTens minOnes secTens secOnes 
+  clearLCD clockAddress clkG2T scanCol1 row0 pressDetected0 row1 pressDetected1 
+  row2 pressDetected2 row3 pressDetected3 scanCol3 row0 pressDetected0 row1 
+  pressDetected1 row2 pressDetected2 row3 pressDetected3 scanCol2 row0 
+  pressDetected0 row1 pressDetected1 row2 pressDetected2 row3 pressDetected3 
+  portB scanCol0 row0 pressDetected0 row1 pressDetected1 row2 pressDetected2 
+  row3 pressDetected3 fourBitEightBang fourBitFiveBang fourBitFourBang 
+  fourBitNineBang fourBitSevenBang fourBitSixBang fourBitSoloBang 
+  fourBitThreeBang fourBitTwoBang getClock getDay one isOne three getOnesPlace 
+  data1XXX data1001 data0001 data001X data0011 data01XX data0101 data011X 
+  data0111 done getHour one getOnesPlace data1XXX data1001 data0001 data001X 
+  data0011 data01XX data0101 data011X data0111 getMin firstBitIsOne 
+  secondBitIsOne thirdBitIsOne firstAndSecondBitsAreOne firstAndThirdBitsAreOne 
+  secondAndThirdBitsAreOne getOnesPlace data1XXX data1001 data0001 data001X 
+  data0011 data01XX data0101 data011X data0111 done getMonth one getOnesPlace 
+  data1XXX data1001 data0001 data001X data0011 data01XX data0101 data011X 
+  data0111 getSec firstBitIsOne secondBitIsOne thirdBitIsOne 
+  firstAndSecondBitsAreOne firstAndThirdBitsAreOne secondAndThirdBitsAreOne 
+  getOnesPlace data1XXX data1001 data0001 data001X data0011 data01XX data0101 
+  data011X data0111 done getYear one isOne three getOnesPlace data1XXX data1001 
+  data0001 data001X data0011 data01XX data0101 data011X data0111 done i2cClock 
+  i2cStart i2cStop initializeLCD secondLine readAck secAddress selectY0 
+  selectY1 selectY2 selectY3 press selectY4 setClock setDay three two one 
+  setOnesPlace setNine setEight setSeven setSix setFive setFour setThree setTwo 
+  setOne setHour one setOnesPlace setNine setEight setSeven setSix setFive 
+  setFour setThree setTwo setOne setMin five four three two one setOnesPlace 
+  setNine setEight setSeven setSix setFive setFour setThree setTwo setOne 
+  setMonth one setOnesPlace setNine setEight setSeven setSix setFive setFour 
+  setThree setTwo setOne setSec five four three two one setOnesPlace setNine 
+  setEight setSeven setSix setFive setFour setThree setTwo setOne setYear 
+  setBit7 setBit6 setBit5 setBit4 setOnesPlace setNine setEight setSeven setSix 
+  setFive setFour setThree setTwo setOne subRtnCol subRtnHb turnOn subRtnRows 
+  setRow0 setRow1 setRow2 setRow3 wait100us decrement wait_loop done wait15ms 
+  decrement wait_loop done wait1600us decrement wait_loop done wait40us 
+  decrement wait_loop done wait4100us decrement wait_loop done writeA_lowercase 
+  writeAck writeColon writeD writeDay one two three writeTheOnesPlace equalsOne 
+  equalsTwo equalsThree equalsFour equalsFive equalsSix equalsSeven equalsEight 
+  equalsNine done writeE_lowercase writeEight writeFive writeForwardSlash 
+  writeFour writeH_lowercase writeHour one writeTheOnesPlace equalsOne 
+  equalsTwo equalsThree equalsFour equalsFive equalsSix equalsSeven equalsEight 
+  equalsNine done writeI_lowercase writeLCD writeM_lowercase writeMin one two 
+  three four five six writeTheOnesPlace equalsOne equalsTwo equalsThree 
+  equalsFour equalsFive equalsSix equalsSeven equalsEight equalsNine done 
+  writeMonth one writeTheOnesPlace equalsOne equalsTwo equalsThree equalsFour 
+  equalsFive equalsSix equalsSeven equalsEight equalsNine done writeNine 
+  writeOne writeQuestion writeQuote writeS_lowercase writeSec one two three 
+  four five six writeTheOnesPlace equalsOne equalsTwo equalsThree equalsFour 
+  equalsFive equalsSix equalsSeven equalsEight equalsNine done writeSeven 
+  writeSix writeSpace writeT writeT_lowercase writeThree writeTwo writeW 
+  writeYear one two three four five six writeTheOnesPlace equalsOne equalsTwo 
+  equalsThree equalsFour equalsFive equalsSix equalsSeven equalsEight 
+  equalsNine done writeZero 
+SECTION: "CODE_SECT"
+  MCU_init SkipTrim isrVtpmovf done 
+
+*********************************************************************************************
+OBJECT LIST SORTED BY ADDRESS
+     Name                                      Addr   hSize   dSize     Ref    Section   RLIB
+---------------------------------------------------------------------------------------------
+     rowNum                                      60       1       1      13   MY_ZEROPAGE 
+     btnClicks                                   61       1       1      25   MY_ZEROPAGE 
+     btnCode                                     62       1       1      35   MY_ZEROPAGE 
+     busLinesInput                               63       1       1      19   MY_ZEROPAGE 
+     heartbeat                                   64       1       1       3   MY_ZEROPAGE 
+     waitTime                                    65       1       1      16   MY_ZEROPAGE 
+     waitNumber                                  66       1       1       4   MY_ZEROPAGE 
+     yearTensPlace                               67       1       1      21   MY_ZEROPAGE 
+     yearOnesPlace                               68       1       1      24   MY_ZEROPAGE 
+     dayTensPlace                                69       1       1      17   MY_ZEROPAGE 
+     dayOnesPlace                                6A       1       1      24   MY_ZEROPAGE 
+     monthTensPlace                              6B       1       1      15   MY_ZEROPAGE 
+     monthOnesPlace                              6C       1       1      24   MY_ZEROPAGE 
+     hourTensPlace                               6D       1       1      15   MY_ZEROPAGE 
+     hourOnesPlace                               6E       1       1      23   MY_ZEROPAGE 
+     minTensPlace                                6F       1       1      20   MY_ZEROPAGE 
+     minOnesPlace                                70       1       1      23   MY_ZEROPAGE 
+     secTensPlace                                71       1       1      20   MY_ZEROPAGE 
+     secOnesPlace                                72       1       1      23   MY_ZEROPAGE 
+     main                                      E000       0       0       0   .init       
+     _Startup                                  E000      8E     142       0   .init       
+     mainLoop                                  E08E       8       8       0   .init       
+     decrement                                 E096      42      66       0   .init       
+     toggleHeartbeat                           E0D8       B      11       0   .init       
+     displayDate                               E0E3       9       9       0   .init       
+     done                                      E0EC       2       2       0   .init       
+     date                                      E0EE      28      40       1   MyCode      
+     time                                      E116      22      34       1   MyCode      
+     time2GetReal                              E138      37      55       2   MyCode      
+     btnA                                      E16F       7       7       1   MyCode      
+     pressed                                   E176       F      15       0   MyCode      
+     btnB                                      E185       7       7       1   MyCode      
+     pressed                                   E18C       F      15       0   MyCode      
+     btnC                                      E19B       7       7       1   MyCode      
+     pressed                                   E1A2       F      15       0   MyCode      
+     btnD                                      E1B1       7       7       1   MyCode      
+     pressed                                   E1B8       F      15       0   MyCode      
+     btn8                                      E1C7       7       7       1   MyCode      
+     pressed                                   E1CE      3B      59       0   MyCode      
+     done                                      E209       4       4       0   MyCode      
+     monthTens                                 E20D       7       7       0   MyCode      
+     monthOnes                                 E214       A      10       0   MyCode      
+     dayTens                                   E21E       7       7       0   MyCode      
+     dayOnes                                   E225       A      10       0   MyCode      
+     yearTens                                  E22F       7       7       0   MyCode      
+     yearOnes                                  E236       7       7       0   MyCode      
+     hourTens                                  E23D       7       7       0   MyCode      
+     hourOnes                                  E244       A      10       0   MyCode      
+     minTens                                   E24E       7       7       0   MyCode      
+     minOnes                                   E255       A      10       0   MyCode      
+     secTens                                   E25F       7       7       0   MyCode      
+     secOnes                                   E266       A      10       0   MyCode      
+     btn5                                      E270       7       7       1   MyCode      
+     pressed                                   E277      3B      59       0   MyCode      
+     done                                      E2B2       4       4       0   MyCode      
+     monthTens                                 E2B6       7       7       0   MyCode      
+     monthOnes                                 E2BD       A      10       0   MyCode      
+     dayTens                                   E2C7       7       7       0   MyCode      
+     dayOnes                                   E2CE       A      10       0   MyCode      
+     yearTens                                  E2D8       7       7       0   MyCode      
+     yearOnes                                  E2DF       7       7       0   MyCode      
+     hourTens                                  E2E6       7       7       0   MyCode      
+     hourOnes                                  E2ED       A      10       0   MyCode      
+     minTens                                   E2F7       7       7       0   MyCode      
+     minOnes                                   E2FE       A      10       0   MyCode      
+     secTens                                   E308       7       7       0   MyCode      
+     secOnes                                   E30F       A      10       0   MyCode      
+     btn4                                      E319       7       7       1   MyCode      
+     pressed                                   E320      3B      59       0   MyCode      
+     done                                      E35B       4       4       0   MyCode      
+     monthTens                                 E35F       7       7       0   MyCode      
+     monthOnes                                 E366       A      10       0   MyCode      
+     dayTens                                   E370       7       7       0   MyCode      
+     dayOnes                                   E377       A      10       0   MyCode      
+     yearTens                                  E381       7       7       0   MyCode      
+     yearOnes                                  E388       7       7       0   MyCode      
+     hourTens                                  E38F       7       7       0   MyCode      
+     hourOnes                                  E396       A      10       0   MyCode      
+     minTens                                   E3A0       7       7       0   MyCode      
+     minOnes                                   E3A7       A      10       0   MyCode      
+     secTens                                   E3B1       7       7       0   MyCode      
+     secOnes                                   E3B8       A      10       0   MyCode      
+     btnHandled                                E3C2      17      23      15   MyCode      
+     btnHash                                   E3D9       7       7       1   MyCode      
+     pressed                                   E3E0       F      15       0   MyCode      
+     btn9                                      E3EF       7       7       1   MyCode      
+     pressed                                   E3F6      3B      59       0   MyCode      
+     done                                      E431       4       4       0   MyCode      
+     monthTens                                 E435       7       7       0   MyCode      
+     monthOnes                                 E43C       A      10       0   MyCode      
+     dayTens                                   E446       7       7       0   MyCode      
+     dayOnes                                   E44D       A      10       0   MyCode      
+     yearTens                                  E457       7       7       0   MyCode      
+     yearOnes                                  E45E       7       7       0   MyCode      
+     hourTens                                  E465       7       7       0   MyCode      
+     hourOnes                                  E46C       A      10       0   MyCode      
+     minTens                                   E476       7       7       0   MyCode      
+     minOnes                                   E47D       A      10       0   MyCode      
+     secTens                                   E487       7       7       0   MyCode      
+     secOnes                                   E48E       A      10       0   MyCode      
+     btn1                                      E498       7       7       1   MyCode      
+     pressed                                   E49F      3B      59       0   MyCode      
+     done                                      E4DA       4       4       0   MyCode      
+     monthTens                                 E4DE       7       7       0   MyCode      
+     monthOnes                                 E4E5       A      10       0   MyCode      
+     dayTens                                   E4EF       7       7       0   MyCode      
+     dayOnes                                   E4F6       A      10       0   MyCode      
+     yearTens                                  E500       7       7       0   MyCode      
+     yearOnes                                  E507       7       7       0   MyCode      
+     hourTens                                  E50E       7       7       0   MyCode      
+     hourOnes                                  E515       A      10       0   MyCode      
+     minTens                                   E51F       7       7       0   MyCode      
+     minOnes                                   E526       A      10       0   MyCode      
+     secTens                                   E530       7       7       0   MyCode      
+     secOnes                                   E537       A      10       0   MyCode      
+     btn7                                      E541       7       7       1   MyCode      
+     pressed                                   E548      3B      59       0   MyCode      
+     done                                      E583       4       4       0   MyCode      
+     monthTens                                 E587       7       7       0   MyCode      
+     monthOnes                                 E58E       A      10       0   MyCode      
+     dayTens                                   E598       7       7       0   MyCode      
+     dayOnes                                   E59F       A      10       0   MyCode      
+     yearTens                                  E5A9       7       7       0   MyCode      
+     yearOnes                                  E5B0       7       7       0   MyCode      
+     hourTens                                  E5B7       7       7       0   MyCode      
+     hourOnes                                  E5BE       A      10       0   MyCode      
+     minTens                                   E5C8       7       7       0   MyCode      
+     minOnes                                   E5CF       A      10       0   MyCode      
+     secTens                                   E5D9       7       7       0   MyCode      
+     secOnes                                   E5E0       A      10       0   MyCode      
+     btn6                                      E5EA       7       7       1   MyCode      
+     pressed                                   E5F1      3B      59       0   MyCode      
+     done                                      E62C       4       4       0   MyCode      
+     monthTens                                 E630       7       7       0   MyCode      
+     monthOnes                                 E637       A      10       0   MyCode      
+     dayTens                                   E641       7       7       0   MyCode      
+     dayOnes                                   E648       A      10       0   MyCode      
+     yearTens                                  E652       7       7       0   MyCode      
+     yearOnes                                  E659       7       7       0   MyCode      
+     hourTens                                  E660       7       7       0   MyCode      
+     hourOnes                                  E667       A      10       0   MyCode      
+     minTens                                   E671       7       7       0   MyCode      
+     minOnes                                   E678       A      10       0   MyCode      
+     secTens                                   E682       7       7       0   MyCode      
+     secOnes                                   E689       A      10       0   MyCode      
+     btnStar                                   E693       7       7       1   MyCode      
+     pressed                                   E69A      46      70       0   MyCode      
+     btn3                                      E6E0       7       7       1   MyCode      
+     pressed                                   E6E7      3B      59       0   MyCode      
+     done                                      E722       4       4       0   MyCode      
+     monthTens                                 E726       7       7       0   MyCode      
+     monthOnes                                 E72D       A      10       0   MyCode      
+     dayTens                                   E737       7       7       0   MyCode      
+     dayOnes                                   E73E       A      10       0   MyCode      
+     yearTens                                  E748       7       7       0   MyCode      
+     yearOnes                                  E74F       7       7       0   MyCode      
+     hourTens                                  E756       7       7       0   MyCode      
+     hourOnes                                  E75D       A      10       0   MyCode      
+     minTens                                   E767       7       7       0   MyCode      
+     minOnes                                   E76E       A      10       0   MyCode      
+     secTens                                   E778       7       7       0   MyCode      
+     secOnes                                   E77F       A      10       0   MyCode      
+     btn2                                      E789       7       7       1   MyCode      
+     pressed                                   E790      3B      59       0   MyCode      
+     done                                      E7CB       4       4       0   MyCode      
+     monthTens                                 E7CF       7       7       0   MyCode      
+     monthOnes                                 E7D6       A      10       0   MyCode      
+     dayTens                                   E7E0       7       7       0   MyCode      
+     dayOnes                                   E7E7       A      10       0   MyCode      
+     yearTens                                  E7F1       7       7       0   MyCode      
+     yearOnes                                  E7F8       7       7       0   MyCode      
+     hourTens                                  E7FF       7       7       0   MyCode      
+     hourOnes                                  E806       A      10       0   MyCode      
+     minTens                                   E810       7       7       0   MyCode      
+     minOnes                                   E817       A      10       0   MyCode      
+     secTens                                   E821       7       7       0   MyCode      
+     secOnes                                   E828       A      10       0   MyCode      
+     btn0                                      E832       7       7       1   MyCode      
+     pressed                                   E839      3B      59       0   MyCode      
+     done                                      E874       4       4       0   MyCode      
+     monthTens                                 E878       7       7       0   MyCode      
+     monthOnes                                 E87F       A      10       0   MyCode      
+     dayTens                                   E889       7       7       0   MyCode      
+     dayOnes                                   E890       A      10       0   MyCode      
+     yearTens                                  E89A       7       7       0   MyCode      
+     yearOnes                                  E8A1       7       7       0   MyCode      
+     hourTens                                  E8A8       7       7       0   MyCode      
+     hourOnes                                  E8AF       A      10       0   MyCode      
+     minTens                                   E8B9       7       7       0   MyCode      
+     minOnes                                   E8C0       A      10       0   MyCode      
+     secTens                                   E8CA       7       7       0   MyCode      
+     secOnes                                   E8D1       A      10       0   MyCode      
+     clearLCD                                  E8DB      25      37       4   MyCode      
+     clockAddress                              E900      1E      30       3   MyCode      
+     clkG2T                                    E91E       7       7       4   MyCode      
+     scanCol1                                  E925       E      14       1   MyCode      
+     row0                                      E933       4       4       0   MyCode      
+     pressDetected0                            E937       6       6       0   MyCode      
+     row1                                      E93D       4       4       0   MyCode      
+     pressDetected1                            E941       6       6       0   MyCode      
+     row2                                      E947       4       4       0   MyCode      
+     pressDetected2                            E94B       6       6       0   MyCode      
+     row3                                      E951       4       4       0   MyCode      
+     pressDetected3                            E955       6       6       0   MyCode      
+     scanCol3                                  E95B       E      14       1   MyCode      
+     row0                                      E969       4       4       0   MyCode      
+     pressDetected0                            E96D       6       6       0   MyCode      
+     row1                                      E973       4       4       0   MyCode      
+     pressDetected1                            E977       6       6       0   MyCode      
+     row2                                      E97D       4       4       0   MyCode      
+     pressDetected2                            E981       6       6       0   MyCode      
+     row3                                      E987       4       4       0   MyCode      
+     pressDetected3                            E98B       6       6       0   MyCode      
+     scanCol2                                  E991       E      14       1   MyCode      
+     row0                                      E99F       4       4       0   MyCode      
+     pressDetected0                            E9A3       6       6       0   MyCode      
+     row1                                      E9A9       4       4       0   MyCode      
+     pressDetected1                            E9AD       6       6       0   MyCode      
+     row2                                      E9B3       4       4       0   MyCode      
+     pressDetected2                            E9B7       6       6       0   MyCode      
+     row3                                      E9BD       4       4       0   MyCode      
+     pressDetected3                            E9C1       6       6       0   MyCode      
+     portB                                     E9C7       1       1       0   MyCode      
+     scanCol0                                  E9C8       E      14       1   MyCode      
+     row0                                      E9D6       4       4       0   MyCode      
+     pressDetected0                            E9DA       6       6       0   MyCode      
+     row1                                      E9E0       4       4       0   MyCode      
+     pressDetected1                            E9E4       6       6       0   MyCode      
+     row2                                      E9EA       4       4       0   MyCode      
+     pressDetected2                            E9EE       6       6       0   MyCode      
+     row3                                      E9F4       4       4       0   MyCode      
+     pressDetected3                            E9F8       6       6       0   MyCode      
+     fourBitEightBang                          E9FE      15      21       6   MyCode      
+     fourBitFiveBang                           EA13      15      21       6   MyCode      
+     fourBitFourBang                           EA28      15      21       6   MyCode      
+     fourBitNineBang                           EA3D      15      21       6   MyCode      
+     fourBitSevenBang                          EA52      15      21       6   MyCode      
+     fourBitSixBang                            EA67      15      21       6   MyCode      
+     fourBitSoloBang                           EA7C      15      21       6   MyCode      
+     fourBitThreeBang                          EA91      15      21       6   MyCode      
+     fourBitTwoBang                            EAA6      15      21       6   MyCode      
+     getClock                                  EABB      6B     107       1   MyCode      
+     getDay                                    EB26      27      39       1   MyCode      
+     one                                       EB4D       7       7       0   MyCode      
+     isOne                                     EB54      13      19       0   MyCode      
+     three                                     EB67       5       5       0   MyCode      
+     getOnesPlace                              EB6C      37      55       0   MyCode      
+     data1XXX                                  EBA3      13      19       0   MyCode      
+     data1001                                  EBB6       7       7       0   MyCode      
+     data0001                                  EBBD       7       7       0   MyCode      
+     data001X                                  EBC4      13      19       0   MyCode      
+     data0011                                  EBD7       7       7       0   MyCode      
+     data01XX                                  EBDE      1F      31       0   MyCode      
+     data0101                                  EBFD       7       7       0   MyCode      
+     data011X                                  EC04      18      24       0   MyCode      
+     data0111                                  EC1C       5       5       0   MyCode      
+     done                                      EC21       1       1       0   MyCode      
+     getHour                                   EC22      1F      31       1   MyCode      
+     one                                       EC41       7       7       0   MyCode      
+     getOnesPlace                              EC48      36      54       0   MyCode      
+     data1XXX                                  EC7E      1A      26       0   MyCode      
+     data1001                                  EC98       6       6       0   MyCode      
+     data0001                                  EC9E       6       6       0   MyCode      
+     data001X                                  ECA4      12      18       0   MyCode      
+     data0011                                  ECB6       6       6       0   MyCode      
+     data01XX                                  ECBC      1E      30       0   MyCode      
+     data0101                                  ECDA       6       6       0   MyCode      
+     data011X                                  ECE0      12      18       0   MyCode      
+     data0111                                  ECF2       6       6       0   MyCode      
+     getMin                                    ECF8      30      48       1   MyCode      
+     firstBitIsOne                             ED28      1F      31       0   MyCode      
+     secondBitIsOne                            ED47      13      19       0   MyCode      
+     thirdBitIsOne                             ED5A       7       7       0   MyCode      
+     firstAndSecondBitsAreOne                  ED61       7       7       0   MyCode      
+     firstAndThirdBitsAreOne                   ED68       7       7       0   MyCode      
+     secondAndThirdBitsAreOne                  ED6F       5       5       0   MyCode      
+     getOnesPlace                              ED74      37      55       0   MyCode      
+     data1XXX                                  EDAB      13      19       0   MyCode      
+     data1001                                  EDBE       7       7       0   MyCode      
+     data0001                                  EDC5       7       7       0   MyCode      
+     data001X                                  EDCC      13      19       0   MyCode      
+     data0011                                  EDDF       7       7       0   MyCode      
+     data01XX                                  EDE6      1F      31       0   MyCode      
+     data0101                                  EE05       7       7       0   MyCode      
+     data011X                                  EE0C      13      19       0   MyCode      
+     data0111                                  EE1F       5       5       0   MyCode      
+     done                                      EE24       1       1       0   MyCode      
+     getMonth                                  EE25      1F      31       1   MyCode      
+     one                                       EE44       7       7       0   MyCode      
+     getOnesPlace                              EE4B      36      54       0   MyCode      
+     data1XXX                                  EE81      1A      26       0   MyCode      
+     data1001                                  EE9B       6       6       0   MyCode      
+     data0001                                  EEA1       6       6       0   MyCode      
+     data001X                                  EEA7      12      18       0   MyCode      
+     data0011                                  EEB9       6       6       0   MyCode      
+     data01XX                                  EEBF      1E      30       0   MyCode      
+     data0101                                  EEDD       6       6       0   MyCode      
+     data011X                                  EEE3      17      23       0   MyCode      
+     data0111                                  EEFA       6       6       0   MyCode      
+     getSec                                    EF00      30      48       1   MyCode      
+     firstBitIsOne                             EF30      1F      31       0   MyCode      
+     secondBitIsOne                            EF4F      13      19       0   MyCode      
+     thirdBitIsOne                             EF62       7       7       0   MyCode      
+     firstAndSecondBitsAreOne                  EF69       7       7       0   MyCode      
+     firstAndThirdBitsAreOne                   EF70       7       7       0   MyCode      
+     secondAndThirdBitsAreOne                  EF77       5       5       0   MyCode      
+     getOnesPlace                              EF7C      37      55       0   MyCode      
+     data1XXX                                  EFB3      13      19       0   MyCode      
+     data1001                                  EFC6       7       7       0   MyCode      
+     data0001                                  EFCD       7       7       0   MyCode      
+     data001X                                  EFD4      13      19       0   MyCode      
+     data0011                                  EFE7       7       7       0   MyCode      
+     data01XX                                  EFEE      1F      31       0   MyCode      
+     data0101                                  F00D       7       7       0   MyCode      
+     data011X                                  F014      13      19       0   MyCode      
+     data0111                                  F027       5       5       0   MyCode      
+     done                                      F02C       1       1       0   MyCode      
+     getYear                                   F02D      27      39       1   MyCode      
+     one                                       F054       7       7       0   MyCode      
+     isOne                                     F05B      13      19       0   MyCode      
+     three                                     F06E       5       5       0   MyCode      
+     getOnesPlace                              F073      37      55       0   MyCode      
+     data1XXX                                  F0AA      13      19       0   MyCode      
+     data1001                                  F0BD       7       7       0   MyCode      
+     data0001                                  F0C4       7       7       0   MyCode      
+     data001X                                  F0CB      13      19       0   MyCode      
+     data0011                                  F0DE       7       7       0   MyCode      
+     data01XX                                  F0E5      1F      31       0   MyCode      
+     data0101                                  F104       7       7       0   MyCode      
+     data011X                                  F10B      18      24       0   MyCode      
+     data0111                                  F123       5       5       0   MyCode      
+     done                                      F128       1       1       0   MyCode      
+     i2cClock                                  F129      13      19     168   MyCode      
+     i2cStart                                  F13C      21      33       3   MyCode      
+     i2cStop                                   F15D       D      13       2   MyCode      
+     initializeLCD                             F16A      D0     208       1   MyCode      
+     secondLine                                F23E      1B      27       2   MyCode      
+     readAck                                   F259       F      15       7   MyCode      
+     secAddress                                F268      1B      27       2   MyCode      
+     selectY0                                  F283       A      10      21   MyCode      
+     selectY1                                  F28D       A      10       7   MyCode      
+     selectY2                                  F297       A      10       4   MyCode      
+     selectY3                                  F2A1      32      50       1   MyCode      
+     press                                     F2D3       4       4       0   MyCode      
+     selectY4                                  F2D7       A      10       4   MyCode      
+     setClock                                  F2E1      57      87      10   MyCode      
+     setDay                                    F338      1E      30       1   MyCode      
+     three                                     F356       A      10       0   MyCode      
+     two                                       F360       C      12       0   MyCode      
+     one                                       F36C       A      10       0   MyCode      
+     setOnesPlace                              F376      2D      45       0   MyCode      
+     setNine                                   F3A3       4       4       0   MyCode      
+     setEight                                  F3A7       4       4       0   MyCode      
+     setSeven                                  F3AB       4       4       0   MyCode      
+     setSix                                    F3AF       4       4       0   MyCode      
+     setFive                                   F3B3       4       4       0   MyCode      
+     setFour                                   F3B7       4       4       0   MyCode      
+     setThree                                  F3BB       4       4       0   MyCode      
+     setTwo                                    F3BF       4       4       0   MyCode      
+     setOne                                    F3C3       4       4       0   MyCode      
+     setHour                                   F3C7      1A      26       1   MyCode      
+     one                                       F3E1       5       5       0   MyCode      
+     setOnesPlace                              F3E6      2D      45       0   MyCode      
+     setNine                                   F413       4       4       0   MyCode      
+     setEight                                  F417       4       4       0   MyCode      
+     setSeven                                  F41B       4       4       0   MyCode      
+     setSix                                    F41F       4       4       0   MyCode      
+     setFive                                   F423       4       4       0   MyCode      
+     setFour                                   F427       4       4       0   MyCode      
+     setThree                                  F42B       4       4       0   MyCode      
+     setTwo                                    F42F       4       4       0   MyCode      
+     setOne                                    F433       4       4       0   MyCode      
+     setMin                                    F437      24      36       1   MyCode      
+     five                                      F45B      11      17       0   MyCode      
+     four                                      F46C      11      17       0   MyCode      
+     three                                     F47D      11      17       0   MyCode      
+     two                                       F48E      11      17       0   MyCode      
+     one                                       F49F       F      15       0   MyCode      
+     setOnesPlace                              F4AE      2D      45       0   MyCode      
+     setNine                                   F4DB       4       4       0   MyCode      
+     setEight                                  F4DF       4       4       0   MyCode      
+     setSeven                                  F4E3       4       4       0   MyCode      
+     setSix                                    F4E7       4       4       0   MyCode      
+     setFive                                   F4EB       4       4       0   MyCode      
+     setFour                                   F4EF       4       4       0   MyCode      
+     setThree                                  F4F3       4       4       0   MyCode      
+     setTwo                                    F4F7       4       4       0   MyCode      
+     setOne                                    F4FB       4       4       0   MyCode      
+     setMonth                                  F4FF      16      22       1   MyCode      
+     one                                       F515       5       5       0   MyCode      
+     setOnesPlace                              F51A      2D      45       0   MyCode      
+     setNine                                   F547       4       4       0   MyCode      
+     setEight                                  F54B       4       4       0   MyCode      
+     setSeven                                  F54F       4       4       0   MyCode      
+     setSix                                    F553       4       4       0   MyCode      
+     setFive                                   F557       4       4       0   MyCode      
+     setFour                                   F55B       4       4       0   MyCode      
+     setThree                                  F55F       4       4       0   MyCode      
+     setTwo                                    F563       4       4       0   MyCode      
+     setOne                                    F567       4       4       0   MyCode      
+     setSec                                    F56B      24      36       1   MyCode      
+     five                                      F58F      11      17       0   MyCode      
+     four                                      F5A0      11      17       0   MyCode      
+     three                                     F5B1      11      17       0   MyCode      
+     two                                       F5C2      11      17       0   MyCode      
+     one                                       F5D3       F      15       0   MyCode      
+     setOnesPlace                              F5E2      2D      45       0   MyCode      
+     setNine                                   F60F       4       4       0   MyCode      
+     setEight                                  F613       4       4       0   MyCode      
+     setSeven                                  F617       4       4       0   MyCode      
+     setSix                                    F61B       4       4       0   MyCode      
+     setFive                                   F61F       4       4       0   MyCode      
+     setFour                                   F623       4       4       0   MyCode      
+     setThree                                  F627       4       4       0   MyCode      
+     setTwo                                    F62B       4       4       0   MyCode      
+     setOne                                    F62F       4       4       0   MyCode      
+     setYear                                   F633      2C      44       1   MyCode      
+     setBit7                                   F65F      18      24       0   MyCode      
+     setBit6                                   F677      1E      30       0   MyCode      
+     setBit5                                   F695      15      21       0   MyCode      
+     setBit4                                   F6AA       5       5       0   MyCode      
+     setOnesPlace                              F6AF      2D      45       0   MyCode      
+     setNine                                   F6DC       4       4       0   MyCode      
+     setEight                                  F6E0       4       4       0   MyCode      
+     setSeven                                  F6E4       4       4       0   MyCode      
+     setSix                                    F6E8       4       4       0   MyCode      
+     setFive                                   F6EC       4       4       0   MyCode      
+     setFour                                   F6F0       4       4       0   MyCode      
+     setThree                                  F6F4       4       4       0   MyCode      
+     setTwo                                    F6F8       4       4       0   MyCode      
+     setOne                                    F6FC       4       4       0   MyCode      
+     subRtnCol                                 F700      10      16       4   MyCode      
+     subRtnHb                                  F710      17      23       1   MyCode      
+     turnOn                                    F727       B      11       0   MyCode      
+     subRtnRows                                F732       D      13       1   MyCode      
+     setRow0                                   F73F      19      25       1   MyCode      
+     setRow1                                   F758      19      25       1   MyCode      
+     setRow2                                   F771      19      25       1   MyCode      
+     setRow3                                   F78A      19      25       1   MyCode      
+     wait100us                                 F7A3       5       5       1   MyCode      
+     decrement                                 F7A8       C      12       0   MyCode      
+     wait_loop                                 F7B4       6       6       0   MyCode      
+     done                                      F7BA       1       1       0   MyCode      
+     wait15ms                                  F7BB       5       5      12   MyCode      
+     decrement                                 F7C0       C      12       0   MyCode      
+     wait_loop                                 F7CC       6       6       0   MyCode      
+     done                                      F7D2       2       2       0   MyCode      
+     wait1600us                                F7D4       5       5       2   MyCode      
+     decrement                                 F7D9       C      12       0   MyCode      
+     wait_loop                                 F7E5       6       6       0   MyCode      
+     done                                      F7EB       1       1       0   MyCode      
+     wait40us                                  F7EC       5       5       1   MyCode      
+     decrement                                 F7F1       C      12       0   MyCode      
+     wait_loop                                 F7FD       6       6       0   MyCode      
+     done                                      F803       1       1       0   MyCode      
+     wait4100us                                F804       5       5       1   MyCode      
+     decrement                                 F809       C      12       0   MyCode      
+     wait_loop                                 F815       6       6       0   MyCode      
+     done                                      F81B       1       1       0   MyCode      
+     writeA_lowercase                          F81C      1B      27       2   MyCode      
+     writeAck                                  F837       B      11      11   MyCode      
+     writeColon                                F842      1B      27      23   MyCode      
+     writeD                                    F85D      1B      27       1   MyCode      
+     writeDay                                  F878      11      17       1   MyCode      
+     one                                       F889       5       5       0   MyCode      
+     two                                       F88E       5       5       0   MyCode      
+     three                                     F893       3       3       0   MyCode      
+     writeTheOnesPlace                         F896      23      35       0   MyCode      
+     equalsOne                                 F8B9       5       5       0   MyCode      
+     equalsTwo                                 F8BE       5       5       0   MyCode      
+     equalsThree                               F8C3       5       5       0   MyCode      
+     equalsFour                                F8C8       5       5       0   MyCode      
+     equalsFive                                F8CD       5       5       0   MyCode      
+     equalsSix                                 F8D2       5       5       0   MyCode      
+     equalsSeven                               F8D7       5       5       0   MyCode      
+     equalsEight                               F8DC       5       5       0   MyCode      
+     equalsNine                                F8E1       3       3       0   MyCode      
+     done                                      F8E4       4       4       0   MyCode      
+     writeE_lowercase                          F8E8      1B      27       4   MyCode      
+     writeEight                                F903      1B      27       8   MyCode      
+     writeFive                                 F91E      1B      27       9   MyCode      
+     writeForwardSlash                         F939      1B      27      22   MyCode      
+     writeFour                                 F954      1B      27       9   MyCode      
+     writeH_lowercase                          F96F      1B      27       2   MyCode      
+     writeHour                                 F98A       B      11       1   MyCode      
+     one                                       F995       3       3       0   MyCode      
+     writeTheOnesPlace                         F998      23      35       0   MyCode      
+     equalsOne                                 F9BB       5       5       0   MyCode      
+     equalsTwo                                 F9C0       5       5       0   MyCode      
+     equalsThree                               F9C5       5       5       0   MyCode      
+     equalsFour                                F9CA       5       5       0   MyCode      
+     equalsFive                                F9CF       5       5       0   MyCode      
+     equalsSix                                 F9D4       5       5       0   MyCode      
+     equalsSeven                               F9D9       5       5       0   MyCode      
+     equalsEight                               F9DE       5       5       0   MyCode      
+     equalsNine                                F9E3       3       3       0   MyCode      
+     done                                      F9E6       4       4       0   MyCode      
+     writeI_lowercase                          F9EA      1B      27       4   MyCode      
+     writeLCD                                  FA05       7       7      64   MyCode      
+     writeM_lowercase                          FA0C      1B      27       2   MyCode      
+     writeMin                                  FA27      1A      26       1   MyCode      
+     one                                       FA41       5       5       0   MyCode      
+     two                                       FA46       5       5       0   MyCode      
+     three                                     FA4B       5       5       0   MyCode      
+     four                                      FA50       5       5       0   MyCode      
+     five                                      FA55       5       5       0   MyCode      
+     six                                       FA5A       3       3       0   MyCode      
+     writeTheOnesPlace                         FA5D      23      35       0   MyCode      
+     equalsOne                                 FA80       5       5       0   MyCode      
+     equalsTwo                                 FA85       5       5       0   MyCode      
+     equalsThree                               FA8A       5       5       0   MyCode      
+     equalsFour                                FA8F       5       5       0   MyCode      
+     equalsFive                                FA94       5       5       0   MyCode      
+     equalsSix                                 FA99       5       5       0   MyCode      
+     equalsSeven                               FA9E       5       5       0   MyCode      
+     equalsEight                               FAA3       5       5       0   MyCode      
+     equalsNine                                FAA8       3       3       0   MyCode      
+     done                                      FAAB       4       4       0   MyCode      
+     writeMonth                                FAAF       B      11       1   MyCode      
+     one                                       FABA       3       3       0   MyCode      
+     writeTheOnesPlace                         FABD      23      35       0   MyCode      
+     equalsOne                                 FAE0       5       5       0   MyCode      
+     equalsTwo                                 FAE5       5       5       0   MyCode      
+     equalsThree                               FAEA       5       5       0   MyCode      
+     equalsFour                                FAEF       5       5       0   MyCode      
+     equalsFive                                FAF4       5       5       0   MyCode      
+     equalsSix                                 FAF9       5       5       0   MyCode      
+     equalsSeven                               FAFE       5       5       0   MyCode      
+     equalsEight                               FB03       5       5       0   MyCode      
+     equalsNine                                FB08       3       3       0   MyCode      
+     done                                      FB0B       4       4       0   MyCode      
+     writeNine                                 FB0F      1B      27       8   MyCode      
+     writeOne                                  FB2A      1B      27      13   MyCode      
+     writeQuestion                             FB45      1B      27       1   MyCode      
+     writeQuote                                FB60      1B      27       1   MyCode      
+     writeS_lowercase                          FB7B      1B      27       3   MyCode      
+     writeSec                                  FB96      1A      26       1   MyCode      
+     one                                       FBB0       5       5       0   MyCode      
+     two                                       FBB5       5       5       0   MyCode      
+     three                                     FBBA       5       5       0   MyCode      
+     four                                      FBBF       3       3       0   MyCode      
+     five                                      FBC2       5       5       0   MyCode      
+     six                                       FBC7       3       3       0   MyCode      
+     writeTheOnesPlace                         FBCA      23      35       0   MyCode      
+     equalsOne                                 FBED       5       5       0   MyCode      
+     equalsTwo                                 FBF2       5       5       0   MyCode      
+     equalsThree                               FBF7       5       5       0   MyCode      
+     equalsFour                                FBFC       5       5       0   MyCode      
+     equalsFive                                FC01       5       5       0   MyCode      
+     equalsSix                                 FC06       5       5       0   MyCode      
+     equalsSeven                               FC0B       5       5       0   MyCode      
+     equalsEight                               FC10       5       5       0   MyCode      
+     equalsNine                                FC15       3       3       0   MyCode      
+     done                                      FC18       4       4       0   MyCode      
+     writeSeven                                FC1C      1B      27       8   MyCode      
+     writeSix                                  FC37      1B      27       9   MyCode      
+     writeSpace                                FC52      1B      27       7   MyCode      
+     writeT                                    FC6D      1B      27       1   MyCode      
+     writeT_lowercase                          FC88      1B      27       4   MyCode      
+     writeThree                                FCA3      1B      27      13   MyCode      
+     writeTwo                                  FCBE      1B      27      12   MyCode      
+     writeW                                    FCD9      1B      27       1   MyCode      
+     writeYear                                 FCF4      22      34       1   MyCode      
+     one                                       FD16       5       5       0   MyCode      
+     two                                       FD1B       5       5       0   MyCode      
+     three                                     FD20       5       5       0   MyCode      
+     four                                      FD25       5       5       0   MyCode      
+     five                                      FD2A       5       5       0   MyCode      
+     six                                       FD2F      12      18       0   MyCode      
+     writeTheOnesPlace                         FD41      23      35       0   MyCode      
+     equalsOne                                 FD64       5       5       0   MyCode      
+     equalsTwo                                 FD69       5       5       0   MyCode      
+     equalsThree                               FD6E       5       5       0   MyCode      
+     equalsFour                                FD73       5       5       0   MyCode      
+     equalsFive                                FD78       5       5       0   MyCode      
+     equalsSix                                 FD7D       5       5       0   MyCode      
+     equalsSeven                               FD82       5       5       0   MyCode      
+     equalsEight                               FD87       5       5       0   MyCode      
+     equalsNine                                FD8C       3       3       0   MyCode      
+     done                                      FD8F       4       4       0   MyCode      
+     writeZero                                 FD93      1B      27      14   MyCode      
+     MCU_init                                  FDAE      26      38       1   CODE_SECT   
+     SkipTrim                                  FDD4      1E      30       0   CODE_SECT   
+     isrVtpmovf                                FDF2      2F      47       1   CODE_SECT   
+     done                                      FE21       3       3       0   CODE_SECT   
+     VAR00001                                  FFBD       1       1       0   .text       
+     VAR00002                                  FFBF       1       1       0   .text       
+     VAR00003                                  FFD0       2       2       0   .text       
+     VAR00004                                  FFD2       2       2       0   .text       
+     VAR00005                                  FFD4       2       2       0   .text       
+     VAR00006                                  FFD6       2       2       0   .text       
+     VAR00007                                  FFD8       2       2       0   .text       
+     VAR00008                                  FFDA       2       2       0   .text       
+     VAR00009                                  FFDC       2       2       0   .text       
+     VAR00010                                  FFDE       2       2       0   .text       
+     VAR00011                                  FFE0       2       2       0   .text       
+     VAR00012                                  FFE2       2       2       0   .text       
+     VAR00013                                  FFE4       2       2       0   .text       
+     VAR00014                                  FFE6       2       2       0   .text       
+     VAR00015                                  FFE8       2       2       0   .text       
+     VAR00016                                  FFEA       2       2       0   .text       
+     VAR00017                                  FFEC       2       2       0   .text       
+     VAR00018                                  FFEE       2       2       0   .text       
+     VAR00019                                  FFF0       2       2       0   .text       
+     VAR00020                                  FFF2       2       2       0   .text       
+     VAR00021                                  FFF4       2       2       0   .text       
+     VAR00022                                  FFF6       2       2       0   .text       
+     VAR00023                                  FFF8       2       2       0   .text       
+     VAR00024                                  FFFA       2       2       0   .text       
+     VAR00025                                  FFFC       2       2       0   .text       
+
+*********************************************************************************************
+UNUSED-OBJECTS SECTION
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+COPYDOWN SECTION
+---------------------------------------------------------------------------------------------
+
+*********************************************************************************************
+OBJECT-DEPENDENCIES SECTION
+---------------------------------------------------------------------------------------------
+_Startup                  USES __SEG_END_SSTACK MCU_init btnCode btnClicks 
+                                busLinesInput rowNum waitNumber initializeLCD selectY0 
+                                selectY1 wait15ms time2GetReal 
+mainLoop                  USES waitNumber 
+decrement                 USES subRtnRows btn1 btn2 btn3 btnA btn4 btn5 btn6 
+                                btnB btn7 btn8 btn9 btnC btnStar btn0 btnHash btnD 
+                                wait15ms waitNumber 
+toggleHeartbeat           USES subRtnHb btnClicks 
+displayDate               USES getClock date time 
+date                      USES clearLCD writeD writeA_lowercase 
+                                writeT_lowercase writeE_lowercase writeSpace writeI_lowercase 
+                                writeS_lowercase writeMonth writeDay writeYear secondLine 
+time                      USES writeT writeI_lowercase writeM_lowercase 
+                                writeE_lowercase writeSpace writeS_lowercase writeHour writeMin 
+                                writeSec 
+time2GetReal              USES clearLCD writeW writeH_lowercase 
+                                writeA_lowercase writeT_lowercase writeQuote writeS_lowercase 
+                                writeSpace writeE_lowercase writeI_lowercase 
+                                writeM_lowercase writeQuestion secondLine 
+btnA                      USES btnCode 
+pressed                   USES selectY0 btnHandled 
+btnB                      USES btnCode 
+pressed                   USES selectY0 btnHandled 
+btnC                      USES btnCode 
+pressed                   USES selectY0 btnHandled 
+btnD                      USES btnCode 
+pressed                   USES selectY0 btnHandled 
+btn8                      USES btnCode 
+pressed                   USES selectY0 btnClicks writeEight 
+done                      USES btnHandled 
+monthTens                 USES monthTensPlace 
+monthOnes                 USES monthOnesPlace writeForwardSlash 
+dayTens                   USES dayTensPlace 
+dayOnes                   USES dayOnesPlace writeForwardSlash 
+yearTens                  USES yearTensPlace 
+yearOnes                  USES yearOnesPlace 
+hourTens                  USES hourTensPlace 
+hourOnes                  USES hourOnesPlace writeColon 
+minTens                   USES minTensPlace 
+minOnes                   USES minOnesPlace writeColon 
+secTens                   USES secTensPlace 
+secOnes                   USES secOnesPlace setClock 
+btn5                      USES btnCode 
+pressed                   USES selectY0 btnClicks writeFive 
+done                      USES btnHandled 
+monthTens                 USES monthTensPlace 
+monthOnes                 USES monthOnesPlace writeForwardSlash 
+dayTens                   USES dayTensPlace 
+dayOnes                   USES dayOnesPlace writeForwardSlash 
+yearTens                  USES yearTensPlace 
+yearOnes                  USES yearOnesPlace 
+hourTens                  USES hourTensPlace 
+hourOnes                  USES hourOnesPlace writeColon 
+minTens                   USES minTensPlace 
+minOnes                   USES minOnesPlace writeColon 
+secTens                   USES secTensPlace 
+secOnes                   USES secOnesPlace setClock 
+btn4                      USES btnCode 
+pressed                   USES selectY0 btnClicks writeFour 
+done                      USES btnHandled 
+monthTens                 USES monthTensPlace 
+monthOnes                 USES monthOnesPlace writeForwardSlash 
+dayTens                   USES dayTensPlace 
+dayOnes                   USES dayOnesPlace writeForwardSlash 
+yearTens                  USES yearTensPlace 
+yearOnes                  USES yearOnesPlace 
+hourTens                  USES hourTensPlace 
+hourOnes                  USES hourOnesPlace writeColon 
+minTens                   USES minTensPlace 
+minOnes                   USES minOnesPlace writeColon 
+secTens                   USES secTensPlace 
+secOnes                   USES secOnesPlace setClock 
+btnHandled                USES btnCode btnClicks wait15ms 
+btnHash                   USES btnCode 
+pressed                   USES selectY0 btnHandled 
+btn9                      USES btnCode 
+pressed                   USES selectY0 btnClicks writeNine 
+done                      USES btnHandled 
+monthTens                 USES monthTensPlace 
+monthOnes                 USES monthOnesPlace writeForwardSlash 
+dayTens                   USES dayTensPlace 
+dayOnes                   USES dayOnesPlace writeForwardSlash 
+yearTens                  USES yearTensPlace 
+yearOnes                  USES yearOnesPlace 
+hourTens                  USES hourTensPlace 
+hourOnes                  USES hourOnesPlace writeColon 
+minTens                   USES minTensPlace 
+minOnes                   USES minOnesPlace writeColon 
+secTens                   USES secTensPlace 
+secOnes                   USES secOnesPlace setClock 
+btn1                      USES btnCode 
+pressed                   USES selectY0 btnClicks writeOne 
+done                      USES btnHandled 
+monthTens                 USES monthTensPlace 
+monthOnes                 USES monthOnesPlace writeForwardSlash 
+dayTens                   USES dayTensPlace 
+dayOnes                   USES dayOnesPlace writeForwardSlash 
+yearTens                  USES yearTensPlace 
+yearOnes                  USES yearOnesPlace 
+hourTens                  USES hourTensPlace 
+hourOnes                  USES hourOnesPlace writeColon 
+minTens                   USES minTensPlace 
+minOnes                   USES minOnesPlace writeColon 
+secTens                   USES secTensPlace 
+secOnes                   USES secOnesPlace setClock 
+btn7                      USES btnCode 
+pressed                   USES selectY0 btnClicks writeSeven 
+done                      USES btnHandled 
+monthTens                 USES monthTensPlace 
+monthOnes                 USES monthOnesPlace writeForwardSlash 
+dayTens                   USES dayTensPlace 
+dayOnes                   USES dayOnesPlace writeForwardSlash 
+yearTens                  USES yearTensPlace 
+yearOnes                  USES yearOnesPlace 
+hourTens                  USES hourTensPlace 
+hourOnes                  USES hourOnesPlace writeColon 
+minTens                   USES minTensPlace 
+minOnes                   USES minOnesPlace writeColon 
+secTens                   USES secTensPlace 
+secOnes                   USES secOnesPlace setClock 
+btn6                      USES btnCode 
+pressed                   USES selectY0 btnClicks writeSix 
+done                      USES btnHandled 
+monthTens                 USES monthTensPlace 
+monthOnes                 USES monthOnesPlace writeForwardSlash 
+dayTens                   USES dayTensPlace 
+dayOnes                   USES dayOnesPlace writeForwardSlash 
+yearTens                  USES yearTensPlace 
+yearOnes                  USES yearOnesPlace 
+hourTens                  USES hourTensPlace 
+hourOnes                  USES hourOnesPlace writeColon 
+minTens                   USES minTensPlace 
+minOnes                   USES minOnesPlace writeColon 
+secTens                   USES secTensPlace 
+secOnes                   USES secOnesPlace setClock 
+btnStar                   USES btnCode 
+pressed                   USES selectY0 btnClicks monthTensPlace 
+                                monthOnesPlace dayTensPlace dayOnesPlace yearTensPlace 
+                                yearOnesPlace hourTensPlace hourOnesPlace minTensPlace 
+                                minOnesPlace secTensPlace secOnesPlace time2GetReal btnCode 
+                                wait15ms 
+btn3                      USES btnCode 
+pressed                   USES selectY0 btnClicks writeThree 
+done                      USES btnHandled 
+monthTens                 USES monthTensPlace 
+monthOnes                 USES monthOnesPlace writeForwardSlash 
+dayTens                   USES dayTensPlace 
+dayOnes                   USES dayOnesPlace writeForwardSlash 
+yearTens                  USES yearTensPlace 
+yearOnes                  USES yearOnesPlace 
+hourTens                  USES hourTensPlace 
+hourOnes                  USES hourOnesPlace writeColon 
+minTens                   USES minTensPlace 
+minOnes                   USES minOnesPlace writeColon 
+secTens                   USES secTensPlace 
+secOnes                   USES secOnesPlace setClock 
+btn2                      USES btnCode 
+pressed                   USES selectY0 btnClicks writeTwo 
+done                      USES btnHandled 
+monthTens                 USES monthTensPlace 
+monthOnes                 USES monthOnesPlace writeForwardSlash 
+dayTens                   USES dayTensPlace 
+dayOnes                   USES dayOnesPlace writeForwardSlash 
+yearTens                  USES yearTensPlace 
+yearOnes                  USES yearOnesPlace 
+hourTens                  USES hourTensPlace 
+hourOnes                  USES hourOnesPlace writeColon 
+minTens                   USES minTensPlace 
+minOnes                   USES minOnesPlace writeColon 
+secTens                   USES secTensPlace 
+secOnes                   USES secOnesPlace setClock 
+btn0                      USES btnCode 
+pressed                   USES selectY0 btnClicks writeZero 
+done                      USES btnHandled 
+monthTens                 USES monthTensPlace 
+monthOnes                 USES monthOnesPlace writeForwardSlash 
+dayTens                   USES dayTensPlace 
+dayOnes                   USES dayOnesPlace writeForwardSlash 
+yearTens                  USES yearTensPlace 
+yearOnes                  USES yearOnesPlace 
+hourTens                  USES hourTensPlace 
+hourOnes                  USES hourOnesPlace writeColon 
+minTens                   USES minTensPlace 
+minOnes                   USES minOnesPlace writeColon 
+secTens                   USES secTensPlace 
+secOnes                   USES secOnesPlace setClock 
+clearLCD                  USES writeLCD wait1600us 
+clockAddress              USES i2cClock 
+scanCol1                  USES rowNum 
+row0                      USES busLinesInput 
+pressDetected0            USES btnCode 
+row1                      USES busLinesInput 
+pressDetected1            USES btnCode 
+row2                      USES busLinesInput 
+pressDetected2            USES btnCode 
+row3                      USES busLinesInput 
+pressDetected3            USES btnCode 
+scanCol3                  USES rowNum 
+row0                      USES busLinesInput 
+pressDetected0            USES btnCode 
+row1                      USES busLinesInput 
+pressDetected1            USES btnCode 
+row2                      USES busLinesInput 
+pressDetected2            USES btnCode 
+row3                      USES busLinesInput 
+pressDetected3            USES btnCode 
+scanCol2                  USES rowNum 
+row0                      USES busLinesInput 
+pressDetected0            USES btnCode 
+row1                      USES busLinesInput 
+pressDetected1            USES btnCode 
+row2                      USES busLinesInput 
+pressDetected2            USES btnCode 
+row3                      USES busLinesInput 
+pressDetected3            USES btnCode 
+scanCol0                  USES rowNum 
+row0                      USES busLinesInput 
+pressDetected0            USES btnCode 
+row1                      USES busLinesInput 
+pressDetected1            USES btnCode 
+row2                      USES busLinesInput 
+pressDetected2            USES btnCode 
+row3                      USES busLinesInput 
+pressDetected3            USES btnCode 
+fourBitEightBang          USES i2cClock 
+fourBitFiveBang           USES i2cClock 
+fourBitFourBang           USES i2cClock 
+fourBitNineBang           USES i2cClock 
+fourBitSevenBang          USES i2cClock 
+fourBitSixBang            USES i2cClock 
+fourBitSoloBang           USES i2cClock 
+fourBitThreeBang          USES i2cClock 
+fourBitTwoBang            USES i2cClock 
+getClock                  USES i2cStart clockAddress i2cClock writeAck 
+                                secAddress readAck getSec getMin getHour getDay getMonth 
+                                getYear i2cStop 
+getDay                    USES dayTensPlace 
+one                       USES dayTensPlace 
+isOne                     USES dayTensPlace 
+three                     USES dayTensPlace 
+getOnesPlace              USES dayOnesPlace 
+data1XXX                  USES dayOnesPlace 
+data1001                  USES dayOnesPlace 
+data0001                  USES dayOnesPlace 
+data001X                  USES dayOnesPlace 
+data0011                  USES dayOnesPlace 
+data01XX                  USES dayOnesPlace 
+data0101                  USES dayOnesPlace 
+data011X                  USES dayOnesPlace 
+data0111                  USES dayOnesPlace 
+getHour                   USES hourTensPlace 
+one                       USES hourTensPlace 
+getOnesPlace              USES hourOnesPlace 
+data1XXX                  USES hourOnesPlace 
+data1001                  USES hourOnesPlace 
+data0001                  USES hourOnesPlace 
+data001X                  USES hourOnesPlace 
+data0011                  USES hourOnesPlace 
+data01XX                  USES hourOnesPlace 
+data0101                  USES hourOnesPlace 
+data011X                  USES hourOnesPlace 
+data0111                  USES hourOnesPlace 
+getMin                    USES minTensPlace 
+firstBitIsOne             USES minTensPlace 
+secondBitIsOne            USES minTensPlace 
+thirdBitIsOne             USES minTensPlace 
+firstAndSecondBitsAreOne  USES minTensPlace 
+firstAndThirdBitsAreOne   USES minTensPlace 
+secondAndThirdBitsAreOne  USES minTensPlace 
+getOnesPlace              USES minOnesPlace 
+data1XXX                  USES minOnesPlace 
+data1001                  USES minOnesPlace 
+data0001                  USES minOnesPlace 
+data001X                  USES minOnesPlace 
+data0011                  USES minOnesPlace 
+data01XX                  USES minOnesPlace 
+data0101                  USES minOnesPlace 
+data011X                  USES minOnesPlace 
+data0111                  USES minOnesPlace 
+getMonth                  USES monthTensPlace 
+one                       USES monthTensPlace 
+getOnesPlace              USES monthOnesPlace 
+data1XXX                  USES monthOnesPlace 
+data1001                  USES monthOnesPlace 
+data0001                  USES monthOnesPlace 
+data001X                  USES monthOnesPlace 
+data0011                  USES monthOnesPlace 
+data01XX                  USES monthOnesPlace 
+data0101                  USES monthOnesPlace 
+data011X                  USES monthOnesPlace 
+data0111                  USES monthOnesPlace 
+getSec                    USES secTensPlace 
+firstBitIsOne             USES secTensPlace 
+secondBitIsOne            USES secTensPlace 
+thirdBitIsOne             USES secTensPlace 
+firstAndSecondBitsAreOne  USES secTensPlace 
+firstAndThirdBitsAreOne   USES secTensPlace 
+secondAndThirdBitsAreOne  USES secTensPlace 
+getOnesPlace              USES secOnesPlace 
+data1XXX                  USES secOnesPlace 
+data1001                  USES secOnesPlace 
+data0001                  USES secOnesPlace 
+data001X                  USES secOnesPlace 
+data0011                  USES secOnesPlace 
+data01XX                  USES secOnesPlace 
+data0101                  USES secOnesPlace 
+data011X                  USES secOnesPlace 
+data0111                  USES secOnesPlace 
+getYear                   USES yearTensPlace 
+one                       USES yearTensPlace 
+isOne                     USES yearTensPlace 
+three                     USES yearTensPlace 
+getOnesPlace              USES yearOnesPlace 
+data1XXX                  USES yearOnesPlace 
+data1001                  USES yearOnesPlace 
+data0001                  USES yearOnesPlace 
+data001X                  USES yearOnesPlace 
+data0011                  USES yearOnesPlace 
+data01XX                  USES yearOnesPlace 
+data0101                  USES yearOnesPlace 
+data011X                  USES yearOnesPlace 
+data0111                  USES yearOnesPlace 
+initializeLCD             USES selectY4 wait15ms wait4100us wait100us writeLCD 
+                                clearLCD 
+secondLine                USES writeLCD 
+readAck                   USES i2cClock 
+secAddress                USES i2cClock 
+selectY0                  USES clkG2T 
+selectY1                  USES clkG2T 
+selectY2                  USES clkG2T 
+selectY3                  USES busLinesInput 
+press                     USES busLinesInput 
+selectY4                  USES clkG2T 
+setClock                  USES i2cStart clockAddress i2cClock writeAck 
+                                secAddress setSec setMin setHour setDay setMonth setYear 
+                                i2cStop 
+setDay                    USES i2cClock dayTensPlace 
+three                     USES i2cClock 
+two                       USES i2cClock 
+one                       USES i2cClock 
+setOnesPlace              USES dayOnesPlace i2cClock 
+setNine                   USES fourBitNineBang 
+setEight                  USES fourBitEightBang 
+setSeven                  USES fourBitSevenBang 
+setSix                    USES fourBitSixBang 
+setFive                   USES fourBitFiveBang 
+setFour                   USES fourBitFourBang 
+setThree                  USES fourBitThreeBang 
+setTwo                    USES fourBitTwoBang 
+setOne                    USES fourBitSoloBang 
+setHour                   USES i2cClock hourTensPlace 
+one                       USES i2cClock 
+setOnesPlace              USES hourOnesPlace i2cClock 
+setNine                   USES fourBitNineBang 
+setEight                  USES fourBitEightBang 
+setSeven                  USES fourBitSevenBang 
+setSix                    USES fourBitSixBang 
+setFive                   USES fourBitFiveBang 
+setFour                   USES fourBitFourBang 
+setThree                  USES fourBitThreeBang 
+setTwo                    USES fourBitTwoBang 
+setOne                    USES fourBitSoloBang 
+setMin                    USES i2cClock minTensPlace 
+five                      USES i2cClock 
+four                      USES i2cClock 
+three                     USES i2cClock 
+two                       USES i2cClock 
+one                       USES i2cClock 
+setOnesPlace              USES minOnesPlace i2cClock 
+setNine                   USES fourBitNineBang 
+setEight                  USES fourBitEightBang 
+setSeven                  USES fourBitSevenBang 
+setSix                    USES fourBitSixBang 
+setFive                   USES fourBitFiveBang 
+setFour                   USES fourBitFourBang 
+setThree                  USES fourBitThreeBang 
+setTwo                    USES fourBitTwoBang 
+setOne                    USES fourBitSoloBang 
+setMonth                  USES i2cClock monthTensPlace 
+one                       USES i2cClock 
+setOnesPlace              USES monthOnesPlace i2cClock 
+setNine                   USES fourBitNineBang 
+setEight                  USES fourBitEightBang 
+setSeven                  USES fourBitSevenBang 
+setSix                    USES fourBitSixBang 
+setFive                   USES fourBitFiveBang 
+setFour                   USES fourBitFourBang 
+setThree                  USES fourBitThreeBang 
+setTwo                    USES fourBitTwoBang 
+setOne                    USES fourBitSoloBang 
+setSec                    USES i2cClock secTensPlace 
+five                      USES i2cClock 
+four                      USES i2cClock 
+three                     USES i2cClock 
+two                       USES i2cClock 
+one                       USES i2cClock 
+setOnesPlace              USES secOnesPlace i2cClock 
+setNine                   USES fourBitNineBang 
+setEight                  USES fourBitEightBang 
+setSeven                  USES fourBitSevenBang 
+setSix                    USES fourBitSixBang 
+setFive                   USES fourBitFiveBang 
+setFour                   USES fourBitFourBang 
+setThree                  USES fourBitThreeBang 
+setTwo                    USES fourBitTwoBang 
+setOne                    USES fourBitSoloBang 
+setYear                   USES yearTensPlace i2cClock 
+setBit7                   USES i2cClock yearTensPlace 
+setBit6                   USES i2cClock yearTensPlace 
+setBit5                   USES i2cClock yearTensPlace 
+setBit4                   USES i2cClock 
+setOnesPlace              USES yearOnesPlace i2cClock 
+setNine                   USES fourBitNineBang 
+setEight                  USES fourBitEightBang 
+setSeven                  USES fourBitSevenBang 
+setSix                    USES fourBitSixBang 
+setFive                   USES fourBitFiveBang 
+setFour                   USES fourBitFourBang 
+setThree                  USES fourBitThreeBang 
+setTwo                    USES fourBitTwoBang 
+setOne                    USES fourBitSoloBang 
+subRtnCol                 USES selectY3 scanCol0 scanCol1 scanCol2 scanCol3 
+subRtnHb                  USES heartbeat selectY1 
+turnOn                    USES heartbeat selectY1 
+subRtnRows                USES setRow0 setRow1 setRow2 setRow3 
+setRow0                   USES rowNum selectY2 subRtnCol 
+setRow1                   USES rowNum selectY2 subRtnCol 
+setRow2                   USES rowNum selectY2 subRtnCol 
+setRow3                   USES rowNum selectY2 subRtnCol 
+wait100us                 USES waitTime 
+decrement                 USES waitTime 
+wait15ms                  USES waitTime 
+decrement                 USES waitTime 
+wait1600us                USES waitTime 
+decrement                 USES waitTime 
+wait40us                  USES waitTime 
+decrement                 USES waitTime 
+wait4100us                USES waitTime 
+decrement                 USES waitTime 
+writeA_lowercase          USES writeLCD 
+writeAck                  USES i2cClock 
+writeColon                USES writeLCD 
+writeD                    USES writeLCD 
+writeDay                  USES dayTensPlace writeZero 
+one                       USES writeOne 
+two                       USES writeTwo 
+three                     USES writeThree 
+writeTheOnesPlace         USES dayOnesPlace writeZero 
+equalsOne                 USES writeOne 
+equalsTwo                 USES writeTwo 
+equalsThree               USES writeThree 
+equalsFour                USES writeFour 
+equalsFive                USES writeFive 
+equalsSix                 USES writeSix 
+equalsSeven               USES writeSeven 
+equalsEight               USES writeEight 
+equalsNine                USES writeNine 
+done                      USES writeForwardSlash 
+writeE_lowercase          USES writeLCD 
+writeEight                USES writeLCD 
+writeFive                 USES writeLCD 
+writeForwardSlash         USES writeLCD 
+writeFour                 USES writeLCD 
+writeH_lowercase          USES writeLCD 
+writeHour                 USES hourTensPlace writeZero 
+one                       USES writeOne 
+writeTheOnesPlace         USES hourOnesPlace writeZero 
+equalsOne                 USES writeOne 
+equalsTwo                 USES writeTwo 
+equalsThree               USES writeThree 
+equalsFour                USES writeFour 
+equalsFive                USES writeFive 
+equalsSix                 USES writeSix 
+equalsSeven               USES writeSeven 
+equalsEight               USES writeEight 
+equalsNine                USES writeNine 
+done                      USES writeColon 
+writeI_lowercase          USES writeLCD 
+writeLCD                  USES selectY4 wait40us 
+writeM_lowercase          USES writeLCD 
+writeMin                  USES minTensPlace writeZero 
+one                       USES writeOne 
+two                       USES writeTwo 
+three                     USES writeThree 
+four                      USES writeFour 
+five                      USES writeFive 
+six                       USES writeSix 
+writeTheOnesPlace         USES minOnesPlace writeZero 
+equalsOne                 USES writeOne 
+equalsTwo                 USES writeTwo 
+equalsThree               USES writeThree 
+equalsFour                USES writeFour 
+equalsFive                USES writeFive 
+equalsSix                 USES writeSix 
+equalsSeven               USES writeSeven 
+equalsEight               USES writeEight 
+equalsNine                USES writeNine 
+done                      USES writeColon 
+writeMonth                USES monthTensPlace writeZero 
+one                       USES writeOne 
+writeTheOnesPlace         USES monthOnesPlace writeZero 
+equalsOne                 USES writeOne 
+equalsTwo                 USES writeTwo 
+equalsThree               USES writeThree 
+equalsFour                USES writeFour 
+equalsFive                USES writeFive 
+equalsSix                 USES writeSix 
+equalsSeven               USES writeSeven 
+equalsEight               USES writeEight 
+equalsNine                USES writeNine 
+done                      USES writeForwardSlash 
+writeNine                 USES writeLCD 
+writeOne                  USES writeLCD 
+writeQuestion             USES writeLCD 
+writeQuote                USES writeLCD 
+writeS_lowercase          USES writeLCD 
+writeSec                  USES secTensPlace writeZero 
+one                       USES writeOne 
+two                       USES writeTwo 
+three                     USES writeThree 
+four                      USES writeThree 
+five                      USES writeTwo 
+six                       USES writeThree 
+writeTheOnesPlace         USES secOnesPlace writeZero 
+equalsOne                 USES writeOne 
+equalsTwo                 USES writeTwo 
+equalsThree               USES writeThree 
+equalsFour                USES writeFour 
+equalsFive                USES writeFive 
+equalsSix                 USES writeSix 
+equalsSeven               USES writeSeven 
+equalsEight               USES writeEight 
+equalsNine                USES writeNine 
+done                      USES writeColon 
+writeSeven                USES writeLCD 
+writeSix                  USES writeLCD 
+writeSpace                USES writeLCD 
+writeT                    USES writeLCD 
+writeT_lowercase          USES writeLCD 
+writeThree                USES writeLCD 
+writeTwo                  USES writeLCD 
+writeW                    USES writeLCD 
+writeYear                 USES yearTensPlace writeZero 
+one                       USES writeOne 
+two                       USES writeTwo 
+three                     USES writeThree 
+four                      USES writeFour 
+five                      USES writeFive 
+six                       USES writeSix writeSeven writeEight writeNine 
+writeTheOnesPlace         USES yearOnesPlace writeZero 
+equalsOne                 USES writeOne 
+equalsTwo                 USES writeTwo 
+equalsThree               USES writeThree 
+equalsFour                USES writeFour 
+equalsFive                USES writeFive 
+equalsSix                 USES writeSix 
+equalsSeven               USES writeSeven 
+equalsEight               USES writeEight 
+equalsNine                USES writeNine 
+done                      USES writeSpace 
+writeZero                 USES writeLCD 
+isrVtpmovf                USES waitTime 
+
+*********************************************************************************************
+DEPENDENCY TREE
+*********************************************************************************************
+ main and _Startup Group
+ | 
+ +- main                
+ |    
+ +- _Startup            
+    | 
+    +- MCU_init            
+    |    
+    +- initializeLCD       
+    |  | 
+    |  +- selectY4            
+    |  |  | 
+    |  |  +- clkG2T              
+    |  |       
+    |  +- wait15ms            
+    |  |    
+    |  +- wait4100us          
+    |  |    
+    |  +- wait100us           
+    |  |    
+    |  +- writeLCD            
+    |  |  | 
+    |  |  +- selectY4             (see above)
+    |  |  |  
+    |  |  +- wait40us            
+    |  |       
+    |  +- clearLCD            
+    |     | 
+    |     +- writeLCD             (see above)
+    |     |  
+    |     +- wait1600us          
+    |          
+    +- selectY0            
+    |  | 
+    |  +- clkG2T               (see above)
+    |     
+    +- selectY1            
+    |  | 
+    |  +- clkG2T               (see above)
+    |     
+    +- wait15ms             (see above)
+    |  
+    +- time2GetReal        
+       | 
+       +- clearLCD             (see above)
+       |  
+       +- writeW              
+       |  | 
+       |  +- writeLCD             (see above)
+       |     
+       +- writeH_lowercase    
+       |  | 
+       |  +- writeLCD             (see above)
+       |     
+       +- writeA_lowercase    
+       |  | 
+       |  +- writeLCD             (see above)
+       |     
+       +- writeT_lowercase    
+       |  | 
+       |  +- writeLCD             (see above)
+       |     
+       +- writeQuote          
+       |  | 
+       |  +- writeLCD             (see above)
+       |     
+       +- writeS_lowercase    
+       |  | 
+       |  +- writeLCD             (see above)
+       |     
+       +- writeSpace          
+       |  | 
+       |  +- writeLCD             (see above)
+       |     
+       +- writeE_lowercase    
+       |  | 
+       |  +- writeLCD             (see above)
+       |     
+       +- writeI_lowercase    
+       |  | 
+       |  +- writeLCD             (see above)
+       |     
+       +- writeM_lowercase    
+       |  | 
+       |  +- writeLCD             (see above)
+       |     
+       +- writeQuestion       
+       |  | 
+       |  +- writeLCD             (see above)
+       |     
+       +- secondLine          
+          | 
+          +- writeLCD             (see above)
+             
+ _ORG00003           
+ | 
+ +- isrVtpmovf          
+      
+*********************************************************************************************
+STATISTIC SECTION
+---------------------------------------------------------------------------------------------
+
+ExeFile:
+--------
+Number of blocks to be downloaded: 6
+Total size of all blocks to be downloaded: 7766
+
